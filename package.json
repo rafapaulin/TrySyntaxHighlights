@@ -1,0 +1,39 @@
+{
+    "name": "try-theme",
+    "displayName": "Try Theme",
+    "description": "The best syntax hightlights ever",
+	"homepage": "https://github.com/PKief/vscode-material-icon-theme/blob/master/README.md",
+    "publisher": "rafapaulin",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rafapaulin/TrySyntaxHighlights.git"
+    },
+	"bugs": {
+		"url": "https://github.com/rafapaulin/TrySyntaxHighlights/issues"
+	},
+    "version": "1.0.0",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Try theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Try theme-color-theme.json"
+            }
+        ]
+    },
+	"keywords": [
+		"syntax",
+		"hightlight",
+		"theme",
+		"customization"
+	],
+	"activationEvents": [
+		"*"
+	]
+}
