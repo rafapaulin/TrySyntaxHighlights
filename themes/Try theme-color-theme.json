@@ -341,6 +341,7 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.control.elseif.php",
 				"keyword.control.return.php",
 				"keyword.control.case.php",
 				"keyword.control.exit.php",
