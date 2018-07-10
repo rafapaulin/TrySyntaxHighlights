@@ -38,6 +38,7 @@
 		{
 			"name": "Def, Pont, Sep, etc.",
 			"scope": [
+				"punctuation.definition.section.case-statement.ts",
 				"punctuation.separator.key-value.js",
 				"punctuation.separator.parameter.js",
 				"punctuation.definition.block.js",
@@ -202,6 +203,7 @@
 		{
 			"name": "Elements",
 			"scope": [
+				"punctuation.section.embedded.end.php",
 				"entity.name.tag.custom.html",
 				"entity.name.tag.block.any.html",
 				"entity.name.tag.inline.any.html",
@@ -341,6 +343,7 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.control.die.php",
 				"keyword.control.elseif.php",
 				"keyword.control.return.php",
 				"keyword.control.case.php",
@@ -712,6 +715,7 @@
 		{
 			"name": "Support Functions",
 			"scope": [
+				"support.constant.json.js",
 				"support.function.construct.output.php",
 				"support.function.math.js",
 				"support.class.dom.js",
@@ -803,6 +807,7 @@
 		{
 			"name": "Object Property",
 			"scope": [
+				"variable.other.constant.object.property.js",
 				"support.variable.property.dom.js",
 				"variable.other.property.js",
 				"variable.other.object.property.js",
