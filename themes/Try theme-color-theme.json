@@ -715,6 +715,7 @@
 		{
 			"name": "Support Functions",
 			"scope": [
+				"support.function.json.js",
 				"support.constant.json.js",
 				"support.function.construct.output.php",
 				"support.function.math.js",
