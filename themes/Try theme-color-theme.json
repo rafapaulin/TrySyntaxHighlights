@@ -38,6 +38,7 @@
 		{
 			"name": "Def, Pont, Sep, etc.",
 			"scope": [
+				"meta.brace.angle.ts",
 				"punctuation.definition.section.case-statement.ts",
 				"punctuation.separator.key-value.js",
 				"punctuation.separator.parameter.js",
@@ -203,6 +204,7 @@
 		{
 			"name": "Elements",
 			"scope": [
+				"entity.name.tag.reference.scss",
 				"punctuation.section.embedded.end.php",
 				"entity.name.tag.custom.html",
 				"entity.name.tag.block.any.html",
@@ -343,6 +345,7 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.control.at-rule.include.scss",
 				"keyword.control.die.php",
 				"keyword.control.elseif.php",
 				"keyword.control.return.php",
@@ -540,6 +543,7 @@
 		{
 			"name": "Numbers",
 			"scope": [
+				"constant.numeric.css",
 				"constant.numeric.decimal.php",
 				"constant.numeric.decimal.js",
 				"constant.numeric.decimal.es",
@@ -561,6 +565,7 @@
 		{
 			"name": "Variable",
 			"scope": [
+				"variable.scss",
 				"variable.other.readwrite.js",
 				"variable.other.readwrite.es",
 				"variable.other.readwrite.initCap.es",
@@ -591,6 +596,7 @@
 				"variable.language.this.ts",
 				"variable.language.super.ts",
 				"meta.decorator.ts entity.name.function.ts",
+				"meta.decorator.ts support.class.node.ts",
 				"punctuation.decorator.ts",
 
 				"variable.language.php",
@@ -715,6 +721,7 @@
 		{
 			"name": "Support Functions",
 			"scope": [
+				"meta.method.declaration.ts storage.type.property.ts",
 				"support.function.json.js",
 				"support.constant.json.js",
 				"support.function.construct.output.php",
@@ -808,6 +815,7 @@
 		{
 			"name": "Object Property",
 			"scope": [
+				"variable.other.constant.object.js",
 				"variable.other.constant.object.property.js",
 				"support.variable.property.dom.js",
 				"variable.other.property.js",
@@ -954,6 +962,10 @@
 		{
 			"name": "Unity",
 			"scope": [
+				"keyword.other.unit.rem.css",
+				"keyword.other.unit.em.css",
+				"keyword.other.unit.px.css",
+				"keyword.other.unit.percentage.css",
 				"keyword.other.unit.css",
 				"constant.other.unit.sass"
 			],
