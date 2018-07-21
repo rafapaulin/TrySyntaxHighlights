@@ -38,6 +38,13 @@
 		{
 			"name": "Def, Pont, Sep, etc.",
 			"scope": [
+				"punctuation.definition.dictionary.end.json",
+				"punctuation.definition.dictionary.begin.json",
+				"punctuation.separator.dictionary.pair.json",
+				"punctuation.support.type.property-name.begin.json",
+				"punctuation.support.type.property-name.end.json",
+				"punctuation.definition.array.begin.json",
+				"punctuation.definition.array.end.json",
 				"meta.brace.angle.ts",
 				"punctuation.definition.section.case-statement.ts",
 				"punctuation.separator.key-value.js",
@@ -345,6 +352,9 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.control.from.js",
+				"keyword.control.import.js",
+				"keyword.control.export.js",
 				"keyword.control.at-rule.include.scss",
 				"keyword.control.die.php",
 				"keyword.control.elseif.php",
@@ -532,6 +542,7 @@
 		{
 			"name": "Primitives",
 			"scope": [
+				"support.type.primitive.js",
 				"support.type.primitive.ts",
 				"support.type.builtin.ts"
 			],
@@ -686,6 +697,7 @@
 		{
 			"name": "Storage types",
 			"scope": [
+				"storage.type.type.ts",
 				"storage.type.class.js",
 				"storage.type.variable.let.es",
 				"storage.type.variable.var.es",
@@ -721,6 +733,9 @@
 		{
 			"name": "Support Functions",
 			"scope": [
+				"support.constant.ts",
+				"support.variable.object.process.js",
+				"support.variable.object.node.js",
 				"meta.method.declaration.ts storage.type.property.ts",
 				"support.function.json.js",
 				"support.constant.json.js",
@@ -815,6 +830,7 @@
 		{
 			"name": "Object Property",
 			"scope": [
+				"variable.object.property.js",
 				"variable.other.constant.object.js",
 				"variable.other.constant.object.property.js",
 				"support.variable.property.dom.js",
@@ -938,9 +954,11 @@
 			}
 		},
 		{
-			"name": "JS & TS Module Alias (import/export)",
+			"name": "JS & TS Module Alias",
 			"scope": [
-				"meta.import.ts variable.other.readwrite.ts"
+				"meta.import.ts variable.other.readwrite.ts",
+				"entity.name.type.module.ts",
+				"entity.name.type.alias.ts"
 			],
 			"settings": {
 				"foreground": "#57FFA8"
