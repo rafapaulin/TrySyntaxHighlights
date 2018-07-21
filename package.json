@@ -1,8 +1,8 @@
 {
     "name": "try-theme",
-    "displayName": "Try Theme",
+    "displayName": "Try's Theme",
     "description": "The best syntax hightlights ever",
-    "homepage": "https://github.com/PKief/vscode-material-icon-theme/blob/master/README.md",
+    "homepage": "https://github.com/rafapaulin/TrySyntaxHighlights/blob/master/README.md",
     "publisher": "rafapaulin",
     "engines": {
         "vscode": "^1.5.0"
@@ -14,7 +14,7 @@
     "bugs": {
         "url": "https://github.com/rafapaulin/TrySyntaxHighlights/issues"
     },
-    "version": "1.5.0",
+    "version": "1.6.0",
     "categories": [
         "Themes"
     ],

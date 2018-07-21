@@ -830,6 +830,8 @@
 		{
 			"name": "Object Property",
 			"scope": [
+				"meta.object-literal.key.js string.quoted.single.js",
+				"meta.object-literal.key.js string.quoted.double.js",
 				"variable.object.property.js",
 				"variable.other.constant.object.js",
 				"variable.other.constant.object.property.js",
