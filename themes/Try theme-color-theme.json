@@ -211,6 +211,7 @@
 		{
 			"name": "Elements",
 			"scope": [
+				"entity.name.tag.wildcard.scss",
 				"entity.name.tag.reference.scss",
 				"punctuation.section.embedded.end.php",
 				"entity.name.tag.custom.html",
@@ -252,6 +253,8 @@
 		{
 			"name": "String",
 			"scope": [
+				"string.quoted.single.scss",
+				"string.quoted.double.scss",
 				"string.quoted.css.sass",
 				"string.quoted.double.html",
 				"string.quoted.single.html",
@@ -352,6 +355,10 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"punctuation.definition.section.case-statement.js",
+				"keyword.operator.css",
+				"meta.at-rule.mixin.scss",
+				"keyword.control.at-rule.import.scss",
 				"keyword.control.from.js",
 				"keyword.control.import.js",
 				"keyword.control.export.js",
@@ -626,6 +633,9 @@
 		{
 			"name": "Namespace",
 			"scope": [
+				"meta.at-rule.import.scss string.quoted.single.scss",
+				"meta.at-rule.import.scss string.quoted.double.scss",
+
 				"meta.import.ts string.quoted.single.ts",
 				"meta.import.ts string.quoted.double.ts",
 
@@ -670,6 +680,7 @@
 		{
 		"name": "Colors",
 			"scope": [
+				"constant.other.color.rgb-value.hex.css",
 				"constant.other.color.rgb-value.css",
 				"support.constant.color.w3c-color-name.css",
 				"constant.other.rgb-value.sass",
@@ -733,6 +744,9 @@
 		{
 			"name": "Support Functions",
 			"scope": [
+				"support.variable.object.process.ts",
+				"support.variable.property.process.ts",
+				"support.function.misc.scss",
 				"support.constant.ts",
 				"support.variable.object.process.js",
 				"support.variable.object.node.js",
@@ -895,6 +909,7 @@
 		{
 			"name": "Function Name",
 			"scope": [
+				"entity.name.function.scss",
 				"entity.name.function.js",
 				"entity.name.function.es",
 				"entity.name.function.js",
@@ -958,6 +973,8 @@
 		{
 			"name": "JS & TS Module Alias",
 			"scope": [
+				"entity.name.type.module.js",
+				"variable.other.readwrite.alias.js",
 				"meta.import.ts variable.other.readwrite.ts",
 				"entity.name.type.module.ts",
 				"entity.name.type.alias.ts"
