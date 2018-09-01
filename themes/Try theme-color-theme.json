@@ -149,10 +149,11 @@
 		{
 			"name": "ID Attribute",
 			"scope": [
+				"meta.attribute.id.html entity.other.attribute-name.html",
 				"entity.other.attribute-name.id.html",
 				"constant.character.entity.html",
-
 				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.id.scss",
 				"entity.other.attribute-name.id.sass"
 			],
 			"settings": {
@@ -163,38 +164,15 @@
 		{
 			"name": "ID Name",
 			"scope": [
+				"meta.attribute.id.html string.unquoted.html",
+				"meta.attribute.id.html string.quoted.single.html",
+				"meta.attribute.id.html string.quoted.double.html",
 				"meta.attribute-with-value.id.html string.unquoted.html meta.toc-list.id.html",
 				"meta.attribute-with-value.id.html string.quoted.single.html meta.toc-list.id.html",
 				"meta.attribute-with-value.id.html string.quoted.double.html meta.toc-list.id.html"
 			],
 			"settings": {
 				"foreground": "#F0C690"
-			}
-		},
-		{
-			"name": "Classes",
-			"scope": [
-				"entity.other.attribute-name.class.html",
-				"entity.name.class.php",
-				"entity.name.interface.php",
-				"entity.name.trait.php",
-				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.class.sass"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#16946C"
-			}
-		},
-		{
-			"name": "Class Name",
-			"scope": [
-				"meta.attribute-with-value.class.html string.unquoted.html meta.class-name.html",
-				"meta.attribute-with-value.class.html string.quoted.double.html meta.class-name.html",
-				"meta.attribute-with-value.class.html string.quoted.single.html meta.class-name.html"
-			],
-			"settings": {
-				"foreground": "#88E8CB"
 			}
 		},
 		{
@@ -357,6 +335,7 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.other.default.scss",
 				"punctuation.definition.section.case-statement.js",
 				"keyword.operator.css",
 				"meta.at-rule.mixin.scss",
@@ -635,6 +614,9 @@
 		{
 			"name": "Namespace",
 			"scope": [
+				"meta.export.ts string.quoted.single.ts",
+				"meta.export.ts string.quoted.double.ts",
+
 				"meta.at-rule.import.scss string.quoted.single.scss",
 				"meta.at-rule.import.scss string.quoted.double.scss",
 
@@ -884,8 +866,16 @@
 			}
 		},
 		{
-			"name": "Classes & Interfaces names",
+			"name": "Classes & Interfaces",
 			"scope": [
+				"meta.attribute.class.html entity.other.attribute-name.html",
+				"entity.other.attribute-name.class.html",
+				"entity.name.class.php",
+				"entity.name.interface.php",
+				"entity.name.trait.php",
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.sass",
+
 				"entity.name.type.js",
 				"entity.name.type.class.js",
 				"entity.name.class.js",
@@ -901,7 +891,7 @@
 			}
 		},
 		{
-			"name": "Inherited Class name",
+			"name": "Inherited Class",
 			"scope": [
 				"meta.super-expression.es variable.other.readwrite.initCap.es",
 				"meta.instantiation.es"
@@ -909,6 +899,20 @@
 			"settings": {
 				"fontStyle": "italic bold",
 				"foreground": "#16946C"
+			}
+		},
+		{
+			"name": "Class Name (html attribute value)",
+			"scope": [
+				"meta.attribute.class.html string.unquoted.html",
+				"meta.attribute.class.html string.quoted.single.html",
+				"meta.attribute.class.html string.quoted.double.html",
+				"meta.attribute-with-value.class.html string.unquoted.html meta.class-name.html",
+				"meta.attribute-with-value.class.html string.quoted.double.html meta.class-name.html",
+				"meta.attribute-with-value.class.html string.quoted.single.html meta.class-name.html"
+			],
+			"settings": {
+				"foreground": "#88E8CB"
 			}
 		},
 		{
