@@ -38,6 +38,7 @@
 		{
 			"name": "Def, Pont, Sep, etc.",
 			"scope": [
+				"punctuation.terminator.rule.css",
 				"punctuation.definition.dictionary.end.json",
 				"punctuation.definition.dictionary.begin.json",
 				"punctuation.separator.dictionary.pair.json",
@@ -241,6 +242,7 @@
 		{
 			"name": "DOM Attributes",
 			"scope": [
+				"entity.other.attribute-name.attribute.scss",
 				"entity.other.attribute-name.html",
 				"entity.other.attribute-name.style.html",
 				"entity.other.attribute-name.css",
@@ -744,6 +746,9 @@
 		{
 			"name": "Support Functions",
 			"scope": [
+				"support.function.event-handler.js",
+				"support.variable.property.process.js",
+				"support.function.event-handler.js",
 				"support.variable.object.process.ts",
 				"support.variable.property.process.ts",
 				"support.function.misc.scss",
@@ -909,6 +914,8 @@
 		{
 			"name": "Function Name",
 			"scope": [
+				"meta.function.expression.js meta.object-literal.key.js string.quoted.single.js",
+				"meta.function.expression.js meta.object-literal.key.js string.quoted.double.js",
 				"entity.name.function.scss",
 				"entity.name.function.js",
 				"entity.name.function.es",
@@ -938,6 +945,7 @@
 		{
 			"name": "function KWs",
 			"scope": [
+				"storage.type.function.arrow.js",
 				"storage.type.function.js",
 				"storage.type.function.expression.es",
 				"storage.type.function.js",
