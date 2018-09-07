@@ -36,8 +36,9 @@
 			}
 		},
 		{
-			"name": "Def, Pont, Sep, etc.",
+			"name": "Def, Punct, Sep, etc.",
 			"scope": [
+				"punctuation.definition.section.case-statement.js",
 				"punctuation.terminator.rule.css",
 				"punctuation.definition.dictionary.end.json",
 				"punctuation.definition.dictionary.begin.json",
@@ -640,6 +641,7 @@
 		{
 			"name": "Constants",
 			"scope": [
+				"support.constant.js",
 				"support.constant.math.js",
 				"variable.other.constant.js",
 				"variable.other.readwrite.allCap.es",
@@ -918,8 +920,8 @@
 		{
 			"name": "Function Name",
 			"scope": [
-				"meta.function.expression.js meta.object-literal.key.js string.quoted.single.js",
-				"meta.function.expression.js meta.object-literal.key.js string.quoted.double.js",
+				"support.function.event-handler.js",
+				"meta.function.expression.js storage.modifier.js",
 				"entity.name.function.scss",
 				"entity.name.function.js",
 				"entity.name.function.es",
