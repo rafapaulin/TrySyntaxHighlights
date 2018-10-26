@@ -39,6 +39,11 @@
 		{
 			"name": "Def, Punct, Sep, etc.",
 			"scope": [
+				"meta.tag.xml",
+				"meta.tag.preprocessor.xml",
+				"meta.tag.sgml.doctype.xml",
+				"keyword.other.doctype.xml",
+				"punctuation.separator.namespace.xml",
 				"punctuation.separator.array.json.comments",
 				"punctuation.definition.tag.xml",
 				"punctuation.definition.section.case-statement.js",
@@ -195,6 +200,7 @@
 		{
 			"name": "Elements",
 			"scope": [
+				"entity.name.tag.xml",
 				"entity.name.tag.localname.xml",
 				"entity.name.tag.wildcard.scss",
 				"entity.name.tag.reference.scss",
@@ -226,6 +232,7 @@
 		{
 			"name": "DOM Attributes",
 			"scope": [
+				"entity.other.attribute-name.xml",
 				"entity.other.attribute-selector.sass",
 				"entity.other.attribute-name.localname.xml",
 				"entity.other.attribute-name.attribute.scss",
@@ -345,6 +352,7 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"variable.language.documentroot.xml",
 				"keyword.operator.bitwise.shift.js",
 				"keyword.operator.rest.js",
 				"keyword.control.at-rule.media.scss",
