@@ -15,6 +15,7 @@
 		{
 			"name": "Comment",
 			"scope": [
+				"comment.block.xml",
 				"comment.block",
 				"comment.line.es",
 				"comment.block.es",
@@ -38,6 +39,8 @@
 		{
 			"name": "Def, Punct, Sep, etc.",
 			"scope": [
+				"punctuation.separator.array.json.comments",
+				"punctuation.definition.tag.xml",
 				"punctuation.definition.section.case-statement.js",
 				"punctuation.terminator.rule.css",
 				"punctuation.definition.dictionary.end.json",
@@ -133,6 +136,7 @@
 		{
 			"name": "Basic Text",
 			"scope": [
+				"text.xml",
 				"text.html.basic",
 				"source.js",
 				"source.es",
@@ -191,6 +195,7 @@
 		{
 			"name": "Elements",
 			"scope": [
+				"entity.name.tag.localname.xml",
 				"entity.name.tag.wildcard.scss",
 				"entity.name.tag.reference.scss",
 				"punctuation.section.embedded.end.php",
@@ -221,6 +226,8 @@
 		{
 			"name": "DOM Attributes",
 			"scope": [
+				"entity.other.attribute-selector.sass",
+				"entity.other.attribute-name.localname.xml",
 				"entity.other.attribute-name.attribute.scss",
 				"entity.other.attribute-name.html",
 				"entity.other.attribute-name.style.html",
@@ -234,6 +241,8 @@
 		{
 			"name": "String",
 			"scope": [
+				"string.quoted.single.xml",
+				"string.quoted.double.xml",
 				"string.quoted.single.scss",
 				"string.quoted.double.scss",
 				"string.quoted.css.sass",
@@ -336,6 +345,10 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.operator.bitwise.shift.js",
+				"keyword.operator.rest.js",
+				"keyword.control.at-rule.media.scss",
+				"keyword.operator.ternary.php",
 				"keyword.other.default.scss",
 				"punctuation.definition.section.case-statement.js",
 				"keyword.operator.css",
@@ -591,6 +604,8 @@
 		{
 			"name": "Decorators, pseudos, this, super & parent Keywords",
 			"scope": [
+				"storage.type.php",
+				"variable.language.this.php",
 				"source.js source.es variable.language.this.es",
 				"variable.language.this.js",
 				"variable.language.this.ts",
@@ -615,6 +630,8 @@
 		{
 			"name": "Namespace",
 			"scope": [
+				"entity.name.tag.namespace.xml",
+
 				"meta.export.ts string.quoted.single.ts",
 				"meta.export.ts string.quoted.double.ts",
 
@@ -641,6 +658,7 @@
 		{
 			"name": "Constants",
 			"scope": [
+				"variable.other.constant.object.js",
 				"support.constant.js",
 				"support.constant.math.js",
 				"variable.other.constant.js",
@@ -705,7 +723,6 @@
 				"storage.type.ts",
 				"storage.type.interface.ts",
 				"storage.modifier.ts",
-				"storage.type.php",
 				"storage.type.class.php",
 				"storage.type.interface.php",
 				"storage.modifier.php",
@@ -730,6 +747,9 @@
 		{
 			"name": "Support Functions",
 			"scope": [
+				"support.class.promise.js",
+				"support.function.process.js",
+				"support.function.magic.php",
 				"support.function.event-handler.js",
 				"support.variable.property.process.js",
 				"support.function.event-handler.js",
@@ -836,7 +856,6 @@
 				"meta.object-literal.key.js string.quoted.single.js",
 				"meta.object-literal.key.js string.quoted.double.js",
 				"variable.object.property.js",
-				"variable.other.constant.object.js",
 				"variable.other.constant.object.property.js",
 				"support.variable.property.dom.js",
 				"variable.other.property.js",
