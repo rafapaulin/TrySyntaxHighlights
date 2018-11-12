@@ -200,7 +200,7 @@
 		{
 			"name": "Elements",
 			"scope": [
-				"punctuation.section.embedded.end.php",
+				"punctuation.section.embedded.end.php source.php",
 				"entity.name.tag.xml",
 				"entity.name.tag.localname.xml",
 				"entity.name.tag.wildcard.scss",
@@ -902,6 +902,9 @@
 		{
 			"name": "Classes & Interfaces",
 			"scope": [
+				"meta.use.php support.class.php",
+				"meta.class.body.php support.class.php",
+				"entity.name.type.class.php",
 				"meta.attribute.class.html entity.other.attribute-name.html",
 				"entity.other.attribute-name.class.html",
 				"entity.name.class.php",
