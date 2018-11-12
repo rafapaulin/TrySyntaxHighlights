@@ -200,6 +200,7 @@
 		{
 			"name": "Elements",
 			"scope": [
+				"punctuation.section.embedded.end.php",
 				"entity.name.tag.xml",
 				"entity.name.tag.localname.xml",
 				"entity.name.tag.wildcard.scss",
@@ -352,6 +353,10 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.control.while.php",
+				"keyword.control.endif.php",
+				"keyword.control.endwhile.php",
+				"keyword.control.endforeach.php",
 				"variable.language.documentroot.xml",
 				"keyword.operator.bitwise.shift.js",
 				"keyword.operator.rest.js",
@@ -997,6 +1002,7 @@
 		{
 			"name": "Function Parameter",
 			"scope": [
+				"meta.function.parameters.php variable.other.php",
 				"variable.parameter.es",
 				"variable.parameter.function.js",
 				"variable.parameter.rest.es",
