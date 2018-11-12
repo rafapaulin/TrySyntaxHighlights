@@ -353,6 +353,7 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"punctuation.terminator.statement.php",
 				"keyword.control.while.php",
 				"keyword.control.endif.php",
 				"keyword.control.endwhile.php",
