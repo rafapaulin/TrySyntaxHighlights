@@ -39,6 +39,8 @@
 		{
 			"name": "Def, Punct, Sep, etc.",
 			"scope": [
+				"begin.bracket.round.blade.php",
+				"end.bracket.round.blade.php",
 				"meta.tag.xml",
 				"meta.tag.preprocessor.xml",
 				"meta.tag.sgml.doctype.xml",
@@ -353,6 +355,8 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.blade",
+				"entity.name.function.blade",
 				"punctuation.terminator.statement.php",
 				"keyword.control.while.php",
 				"keyword.control.endif.php",
@@ -761,6 +765,8 @@
 		{
 			"name": "Support Functions",
 			"scope": [
+				"support.function.construct.begin.blade",
+				"support.function.construct.end.blade",
 				"support.class.promise.js",
 				"support.function.process.js",
 				"support.function.magic.php",
