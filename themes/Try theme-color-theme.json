@@ -15,6 +15,8 @@
 		{
 			"name": "Comment",
 			"scope": [
+				"source.dockerfile",
+				"comment.line.number-sign.dockerfile",
 				"comment.block.xml",
 				"comment.block",
 				"comment.line.es",
@@ -253,6 +255,8 @@
 		{
 			"name": "String",
 			"scope": [
+				"string.quoted.single.dockerfile",
+				"string.quoted.double.dockerfile",
 				"string.unquoted.plain.out.yaml",
 				"string.quoted.double.yaml",
 				"string.quoted.single.yaml",
@@ -362,6 +366,7 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.other.special-method.dockerfile",
 				"keyword.blade",
 				"entity.name.function.blade",
 				"punctuation.terminator.statement.php",
