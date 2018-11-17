@@ -39,6 +39,8 @@
 		{
 			"name": "Def, Punct, Sep, etc.",
 			"scope": [
+				"punctuation.definition.block.sequence.item.yaml",
+				"punctuation.separator.key-value.mapping.yaml",
 				"begin.bracket.round.blade.php",
 				"end.bracket.round.blade.php",
 				"meta.tag.xml",
@@ -191,7 +193,6 @@
 			"name": "Inherited Class",
 			"scope": [
 				"entity.other.inherited-class.ts",
-
 				"entity.other.inherited-class.php"
 			],
 			"settings": {
@@ -202,6 +203,7 @@
 		{
 			"name": "Elements",
 			"scope": [
+				"entity.name.tag.yaml",
 				"punctuation.section.embedded.end.php source.php",
 				"entity.name.tag.xml",
 				"entity.name.tag.localname.xml",
@@ -251,6 +253,9 @@
 		{
 			"name": "String",
 			"scope": [
+				"string.unquoted.plain.out.yaml",
+				"string.quoted.double.yaml",
+				"string.quoted.single.yaml",
 				"string.quoted.single.xml",
 				"string.quoted.double.xml",
 				"string.quoted.single.scss",
@@ -332,6 +337,8 @@
 		{
 			"name": "Reserved words",
 			"scope": [
+				"constant.language.null.yaml",
+				"constant.language.boolean.yaml",
 				"variable.language.arguments.js",
 				"constant.language.null.js",
 				"constant.language.undefined.js",
@@ -574,6 +581,8 @@
 		{
 			"name": "Numbers",
 			"scope": [
+				"constant.numeric.integer.yaml",
+				"constant.numeric.float.yaml",
 				"constant.numeric.css",
 				"constant.numeric.decimal.php",
 				"constant.numeric.decimal.js",
