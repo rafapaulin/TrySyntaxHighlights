@@ -15,6 +15,7 @@
 		{
 			"name": "Comment",
 			"scope": [
+				"comment.line.number-sign.yaml",
 				"source.dockerfile",
 				"comment.line.number-sign.dockerfile",
 				"comment.block.xml",
