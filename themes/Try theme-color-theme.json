@@ -923,8 +923,9 @@
 			}
 		},
 		{
-			"name": "Classes & Interfaces",
+			"name": "Classes, Traits & Interfaces",
 			"scope": [
+				"entity.name.type.trait.php",
 				"support.class.php",
 				"entity.other.alias.php",
 				"keyword.other.class.php",
