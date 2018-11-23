@@ -42,6 +42,7 @@
 		{
 			"name": "Def, Punct, Sep, etc.",
 			"scope": [
+				"punctuation.separator.delimiter.php",
 				"punctuation.definition.block.sequence.item.yaml",
 				"punctuation.separator.key-value.mapping.yaml",
 				"begin.bracket.round.blade.php",
@@ -611,6 +612,7 @@
 		{
 			"name": "Variable",
 			"scope": [
+				"punctuation.definition.variable.php",
 				"variable.scss",
 				"variable.other.readwrite.js",
 				"variable.other.readwrite.es",
@@ -857,7 +859,6 @@
 				"support.function.streamsfuncs.php",
 				"support.function.simplexml.php",
 				"support.class.exception.php",
-				"support.class.php",
 				"support.class.builtin.php",
 				"support.function.math.php",
 
@@ -924,6 +925,9 @@
 		{
 			"name": "Classes & Interfaces",
 			"scope": [
+				"support.class.php",
+				"entity.other.alias.php",
+				"keyword.other.class.php",
 				"meta.use.php support.class.php",
 				"meta.class.body.php support.class.php",
 				"entity.name.type.class.php",
@@ -977,6 +981,8 @@
 		{
 			"name": "Function Name",
 			"scope": [
+				"meta.function-call.invoke.php punctuation.definition.variable.php",
+				"meta.function-call.invoke.php variable.other.php",
 				"support.function.event-handler.js",
 				"meta.function.expression.js storage.modifier.js",
 				"entity.name.function.scss",
