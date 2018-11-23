@@ -1034,6 +1034,7 @@
 		{
 			"name": "Function Parameter",
 			"scope": [
+				"meta.function.parameters.php punctuation.definition.variable.php",
 				"meta.function.parameters.php variable.other.php",
 				"variable.parameter.es",
 				"variable.parameter.function.js",
