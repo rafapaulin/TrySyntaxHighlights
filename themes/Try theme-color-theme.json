@@ -639,6 +639,7 @@
 		{
 			"name": "Decorators, pseudos, this, super & parent Keywords",
 			"scope": [
+				"variable.language.this.php punctuation.definition.variable.php",
 				"storage.type.php",
 				"variable.language.this.php",
 				"source.js source.es variable.language.this.es",
