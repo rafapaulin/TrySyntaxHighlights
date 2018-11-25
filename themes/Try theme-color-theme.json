@@ -639,6 +639,7 @@
 		{
 			"name": "Decorators, pseudos, this, super & parent Keywords",
 			"scope": [
+				"keyword.other.class.php",
 				"variable.language.this.php punctuation.definition.variable.php",
 				"storage.type.php",
 				"variable.language.this.php",
@@ -783,6 +784,7 @@
 		{
 			"name": "Support Functions",
 			"scope": [
+				"support.function.hash.php",
 				"support.function.construct.begin.blade",
 				"support.function.construct.end.blade",
 				"support.class.promise.js",
@@ -926,6 +928,7 @@
 		{
 			"name": "Classes, Traits & Interfaces",
 			"scope": [
+				"entity.name.type.interface.php",
 				"entity.name.type.trait.php",
 				"support.class.php",
 				"entity.other.alias.php",
