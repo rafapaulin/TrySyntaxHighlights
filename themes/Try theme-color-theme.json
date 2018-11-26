@@ -932,7 +932,6 @@
 				"entity.name.type.trait.php",
 				"support.class.php",
 				"entity.other.alias.php",
-				"keyword.other.class.php",
 				"meta.use.php support.class.php",
 				"meta.class.body.php support.class.php",
 				"entity.name.type.class.php",
