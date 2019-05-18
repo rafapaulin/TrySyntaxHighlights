@@ -489,6 +489,7 @@
 				"keyword.control.export.js",
 				"keyword.control.switch.js",
 				"keyword.control.default.js",
+				"keyword.operator.spread.js",
 				"keyword.operator.logical.js",
 				"keyword.operator.ternary.js",
 				"keyword.control.trycatch.js",
