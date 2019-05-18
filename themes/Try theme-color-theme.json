@@ -106,6 +106,7 @@
 				"punctuation.definition.parameters.end.js",
 				"punctuation.definition.parameters.begin.js",
 				"punctuation.definition.section.case-statement.js",
+				"meta.tag.attributes.js keyword.operator.assignment.js",
 
 				"text.plain",
 
@@ -637,14 +638,18 @@
 			"scope": [
 				"entity.name.tag.namespace.xml",
 
+				"meta.import.ts string.quoted.single.ts",
+				"meta.import.ts string.quoted.double.ts",
 				"meta.export.ts string.quoted.single.ts",
 				"meta.export.ts string.quoted.double.ts",
 
+				"meta.import.js string.quoted.single.js",
+				"meta.import.js string.quoted.double.js",
+				"meta.export.js string.quoted.single.js",
+				"meta.export.js string.quoted.double.js",
+
 				"meta.at-rule.import.scss string.quoted.single.scss",
 				"meta.at-rule.import.scss string.quoted.double.scss",
-
-				"meta.import.ts string.quoted.single.ts",
-				"meta.import.ts string.quoted.double.ts",
 
 				"meta.use.php",
 				"meta.namespace.php",
