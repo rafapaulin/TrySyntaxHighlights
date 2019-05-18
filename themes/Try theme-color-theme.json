@@ -75,6 +75,8 @@
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.begin.js",
+				"punctuation.definition.tag.end.js",
 				"punctuation.separator.key-value.html",
 				"source.json",
 				"punctuation.definition.string.begin.json",
@@ -93,6 +95,8 @@
 				"punctuation.definition.block.end.php",
 				"punctuation.section.array.begin.php",
 				"punctuation.section.array.end.php",
+				"punctuation.section.embedded.begin.js",
+				"punctuation.section.embedded.end.js",
 				"punctuation.definition.group.begin.php",
 				"punctuation.definition.group.end.php",
 				"punctuation.separator.php",
@@ -207,6 +211,7 @@
 		{
 			"name": "Elements",
 			"scope": [
+				"entity.name.tag.js",
 				"entity.name.tag.yaml",
 				"punctuation.section.embedded.end.php source.php",
 				"entity.name.tag.xml",
@@ -241,6 +246,8 @@
 		{
 			"name": "DOM Attributes",
 			"scope": [
+				"entity.other.attribute-name.js",
+				"meta.tag.attributes.js keyword.operator.assignment.js",
 				"entity.other.attribute-name.xml",
 				"entity.other.attribute-selector.sass",
 				"entity.other.attribute-name.localname.xml",
@@ -499,11 +506,13 @@
 				"keyword.operator.arithmetic.ts",
 				"keyword.operator.comparison.ts",
 				"keyword.control.as.ts",
+				"keyword.control.as.js",
 				"keyword.operator.optional.ts",
 				"keyword.operator.new.ts",
 				"keyword.operator.expression.typeof.ts",
 				"keyword.operator.ternary.ts",
 				"keyword.control.default.ts",
+				"keyword.control.default.js",
 				"keyword.operator.logical.ts",
 				"keyword.control.loop.ts",
 				"keyword.operator.expression.in.ts",
@@ -736,6 +745,8 @@
 			"name": "Constant properties",
 			"scope": [
 				"keyword.other.reserved.sass",
+				"meta.property-value.css",
+				"meta.property-value.sass",
 				"support.constant.property-value.css",
 				"support.constant.property-value.sass",
 				"support.constant.font-name.css",
@@ -919,6 +930,8 @@
 				"variable.other.member.php",
 
 				"support.type.property-name.css",
+				"support.type.vendored.property-name.css",
+				"support.type.vendored.property-name.sass",
 				"support.type.property-name.sass"
 			],
 			"settings": {
@@ -944,6 +957,7 @@
 				"entity.other.attribute-name.class.sass",
 
 				"entity.name.type.js",
+				"support.class.component.js",
 				"entity.name.type.class.js",
 				"entity.name.class.js",
 				"entity.name.class.es",
@@ -1069,6 +1083,7 @@
 		{
 			"name": "Module Alias",
 			"scope": [
+				"constant.language.import-export-all.js",
 				"constant.language.import-export-all.ts",
 				"variable.other.readwrite.import.es",
 				"variable.other.readwrite.export.es",
