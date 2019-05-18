@@ -261,7 +261,6 @@
 			"name": "DOM Attributes",
 			"scope": [
 				"entity.other.attribute-name.js",
-				"meta.tag.attributes.js keyword.operator.assignment.js",
 
 				"entity.other.attribute-name.xml",
 				"entity.other.attribute-name.localname.xml",
