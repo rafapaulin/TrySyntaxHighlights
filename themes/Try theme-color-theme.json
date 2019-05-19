@@ -637,6 +637,7 @@
 			"name": "Namespace & URLs",
 			"scope": [
 				"entity.name.tag.namespace.xml",
+				"entity.other.attribute-name.namespace.xml",
 
 				"meta.import.ts string.quoted.single.ts",
 				"meta.import.ts string.quoted.double.ts",
