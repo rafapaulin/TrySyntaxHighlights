@@ -687,7 +687,8 @@
 				"variable.other.global.php",
 				"support.constant.core.php",
 				"variable.other.global.safer.php",
-				"variable.other.global.php punctuation.definition.variable.php"
+				"variable.other.global.php punctuation.definition.variable.php",
+				"variable.other.global.safer.php punctuation.definition.variable.php"
 			],
 			"settings": {
 				"fontStyle": "bold",
