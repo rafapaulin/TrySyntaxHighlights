@@ -1120,6 +1120,8 @@
 			"name": "Item Arguments",
 			"scope": [
 				"meta.item-access.arguments.python",
+				"meta.item-access.arguments.python string.quoted.single.python",
+				"meta.item-access.arguments.python string.quoted.double.python",
 
 				"meta.item-access.arguments.php string.quoted.single.php meta.string-contents.quoted.single.php",
 				"meta.item-access.arguments.php string.quoted.double.php meta.string-contents.quoted.double.php",
