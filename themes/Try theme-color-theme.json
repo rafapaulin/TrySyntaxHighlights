@@ -49,6 +49,13 @@
 		{
 			"name": "Def, Punct, Sep, etc.",
 			"scope": [
+				"punctuation.separator.parameters.python",
+				"punctuation.section.class.begin.python",
+				"punctuation.section.function.begin.python",
+				"punctuation.definition.parameters.end.python",
+				"punctuation.definition.parameters.begin.python",
+
+				"punctuation.separator.period.python",
 				"punctuation.parenthesis.begin.python",
 				"punctuation.parenthesis.end.python",
 				"punctuation.definition.dict.begin.python",
@@ -56,6 +63,7 @@
 				"punctuation.separator.dict.python",
 				"punctuation.separator.slice.python",
 				"punctuation.separator.element.python",
+				"punctuation.separator.arguments.python",
 				"punctuation.definition.arguments.begin.python",
 				"punctuation.definition.arguments.end.python",
 				"punctuation.definition.list.begin.python",
@@ -385,6 +393,8 @@
 		{
 			"name": "Reserved words",
 			"scope": [
+				"constant.language.python",
+
 				"constant.language.null.yaml",
 				"constant.language.boolean.yaml",
 
@@ -409,6 +419,8 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.control.flow.python",
+				"keyword.control.import.python",
 				"keyword.operator.assignment.python",
 				"keyword.operator.arithmetic.python",
 				"keyword.operator.comparison.python",
@@ -573,6 +585,8 @@
 		{
 			"name": "Primitives",
 			"scope": [
+				"support.type.python",
+
 				"support.type.primitive.js",
 
 				"support.type.primitive.ts",
@@ -613,6 +627,7 @@
 		{
 			"name": "Variables",
 			"scope": [
+				"meta.function-call.arguments.python",
 				"meta.fstring.python",
 				"meta.format.brace.python constant.character.format.placeholder.other.python",
 
@@ -642,6 +657,9 @@
 		{
 			"name": "Decorators, pseudos, this, super & parent Keywords",
 			"scope": [
+				"entity.name.function.decorator.python",
+				"variable.language.special.self.python",
+
 				"storage.type.php",
 				"keyword.other.class.php",
 				"variable.language.this.php",
@@ -764,6 +782,8 @@
 		{
 			"name": "Storage types",
 			"scope": [
+				"storage.type.class.python",
+				"storage.type.function.python",
 				"storage.type.string.python",
 				"storage.type.format.python",
 
@@ -944,6 +964,8 @@
 		{
 			"name": "Classes, Traits & Interfaces",
 			"scope": [
+				"entity.name.type.class.python",
+
 				"entity.name.type.js",
 				"entity.name.class.js",
 				"support.class.error.js",
@@ -997,6 +1019,9 @@
 		{
 			"name": "Function Name",
 			"scope": [
+				"meta.function-call.generic.python",
+				"entity.name.function.python",
+
 				"meta.function-call.invoke.php punctuation.definition.variable.php",
 				"meta.function-call.invoke.php variable.other.php",
 				"entity.name.function.php",
@@ -1040,6 +1065,8 @@
 		{
 			"name": "Function Parameter",
 			"scope": [
+				"variable.parameter.function.language.python",
+
 				"meta.function.parameters.php punctuation.definition.variable.php",
 				"meta.function.parameters.php variable.other.php",
 				"variable.parameter.php",
