@@ -15,6 +15,8 @@
 		{
 			"name": "Comment",
 			"scope": [
+				"comment.line.number-sign.python",
+
 				"comment.block",
 
 				"comment.line.number-sign.yaml",
@@ -47,6 +49,20 @@
 		{
 			"name": "Def, Punct, Sep, etc.",
 			"scope": [
+				"punctuation.parenthesis.begin.python",
+				"punctuation.parenthesis.end.python",
+				"punctuation.definition.dict.begin.python",
+				"punctuation.definition.dict.end.python",
+				"punctuation.separator.dict.python",
+				"punctuation.separator.slice.python",
+				"punctuation.separator.element.python",
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python",
+				"punctuation.definition.list.begin.python",
+				"punctuation.definition.list.end.python",
+				"punctuation.definition.dictionary.begin.python",
+				"punctuation.definition.dictionary.end.python",
+
 				"punctuation.separator.key-value.mapping.yaml",
 				"punctuation.definition.block.sequence.item.yaml",
 				
@@ -280,6 +296,11 @@
 		{
 			"name": "String",
 			"scope": [
+				"meta.fstring.python string.quoted.single.python",
+
+				"string.quoted.single.python",
+				"string.quoted.double.python",
+
 				"string.quoted.single.dockerfile",
 				"string.quoted.double.dockerfile",
 
@@ -340,6 +361,8 @@
 		{
 			"name": "Regex",
 			"scope": [
+				"meta.fstring.python constant.character.format.placeholder.other.python",
+
 				"string.regexp.double-quoted.php",
 				"string.regexp.single-quoted.php",
 				"punctuation.definition.expression.php",
@@ -386,6 +409,10 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.operator.assignment.python",
+				"keyword.operator.arithmetic.python",
+				"keyword.operator.comparison.python",
+
 				"keyword.other.special-method.dockerfile",
 
 				"keyword.blade",
@@ -559,6 +586,10 @@
 		{
 			"name": "Numbers",
 			"scope": [
+				"constant.numeric.integer.decimal.python",
+				"constant.numeric.dec.python",
+				"constant.numeric.float.python",
+
 				"constant.numeric.integer.yaml",
 				"constant.numeric.float.yaml",
 
@@ -580,8 +611,11 @@
 			}
 		},
 		{
-			"name": "Variable",
+			"name": "Variables",
 			"scope": [
+				"meta.fstring.python",
+				"meta.format.brace.python constant.character.format.placeholder.other.python",
+
 				"variable.scss",
 				"variable.sass",
 				"variable.parameter.sass",
@@ -730,6 +764,9 @@
 		{
 			"name": "Storage types",
 			"scope": [
+				"storage.type.string.python",
+				"storage.type.format.python",
+
 				"storage.type.ts",
 				"storage.type.class.ts",
 				"storage.type.interface.ts",
@@ -767,6 +804,8 @@
 		{
 			"name": "Support Functions",
 			"scope": [
+				"support.function.builtin.python",
+
 				"support.function.php",
 				"support.function.var.php",
 				"support.function.xml.php",
@@ -1053,6 +1092,8 @@
 		{
 			"name": "Item Arguments",
 			"scope": [
+				"meta.item-access.arguments.python",
+
 				"meta.item-access.arguments.php string.quoted.single.php meta.string-contents.quoted.single.php",
 				"meta.item-access.arguments.php string.quoted.double.php meta.string-contents.quoted.double.php",
 				"meta.item-access.arguments.php string.quoted.single.php punctuation.definition.string.begin.php",
