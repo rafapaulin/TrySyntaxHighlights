@@ -419,6 +419,7 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.operator.logical.python",
 				"keyword.control.flow.python",
 				"keyword.control.import.python",
 				"keyword.operator.assignment.python",
