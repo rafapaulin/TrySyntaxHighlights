@@ -393,6 +393,8 @@
 		{
 			"name": "Reserved words",
 			"scope": [
+				"constant.language.env",
+
 				"constant.language.python",
 
 				"constant.language.null.yaml",
@@ -419,6 +421,8 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.operator.assignment.env",
+
 				"keyword.operator.logical.python",
 				"keyword.control.flow.python",
 				"keyword.control.import.python",
@@ -601,6 +605,8 @@
 		{
 			"name": "Numbers",
 			"scope": [
+				"constant.numeric.env",
+
 				"constant.numeric.integer.decimal.python",
 				"constant.numeric.dec.python",
 				"constant.numeric.float.python",
@@ -628,6 +634,8 @@
 		{
 			"name": "Variables",
 			"scope": [
+				"variable.other.env",
+
 				"meta.function-call.arguments.python",
 				"meta.fstring.python",
 				"meta.format.brace.python constant.character.format.placeholder.other.python",
