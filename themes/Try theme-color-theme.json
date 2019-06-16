@@ -304,6 +304,9 @@
 		{
 			"name": "String",
 			"scope": [
+				"string.quoted.single.env",
+				"string.quoted.double.env",
+
 				"meta.fstring.python string.quoted.single.python",
 
 				"string.quoted.single.python",
