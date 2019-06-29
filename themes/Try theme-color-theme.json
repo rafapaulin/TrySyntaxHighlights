@@ -426,6 +426,7 @@
 			"scope": [
 				"keyword.operator.assignment.env",
 
+				"keyword.operator.unpacking.parameter.python",
 				"keyword.operator.logical.python",
 				"keyword.control.flow.python",
 				"keyword.control.import.python",
@@ -506,6 +507,7 @@
 				"keyword.operator.bitwise.php",
 				"keyword.control.exception.php",
 				"storage.modifier.abstract.php",
+				"keyword.control.endswitch.php",
 				"storage.modifier.reference.php",
 				"punctuation.accessor.arrow.php",
 				"keyword.control.endforeach.php",
