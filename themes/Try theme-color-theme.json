@@ -494,6 +494,7 @@
 				"keyword.other.new.php",
 				"keyword.other.use.php",
 				"keyword.control.if.php",
+				"keyword.control.do.php",
 				"keyword.control.die.php",
 				"punctuation.accessor.php",
 				"keyword.operator.key.php",
