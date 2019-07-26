@@ -379,6 +379,7 @@
 		{
 			"name": "Regex",
 			"scope": [
+				"keyword.operator.glob.shell",
 				"punctuation.definition.variable.shell",
 
 				"meta.fstring.python constant.character.format.placeholder.other.python",
