@@ -399,7 +399,6 @@
 				"punctuation.definition.template-expression.begin.ts"
 			],
 			"settings": {
-				"fontStyle": "underline",
 				"foreground": "#FFD900"
 			}
 		},
