@@ -434,7 +434,6 @@
 			"name": "Operators & Keywords",
 			"scope": [
 				"keyword.control.shell",
-				"meta.scope.if-block.shell",
 				"keyword.operator.logical.shell",
 				"keyword.operator.redirect.shell",
 				"keyword.operator.expansion.shell",
