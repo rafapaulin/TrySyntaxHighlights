@@ -40,7 +40,11 @@
 				"comment.block.sass",
 				"comment.line.double-slash.sass",
 
-				"comment.line.double-slash.ts"
+				"comment.line.double-slash.ts",
+
+				"comment.line.number-sign.env",
+
+				"comment.line.number-sign.shell"
 			],
 			"settings": {
 				"foreground": "#666666"
@@ -302,8 +306,11 @@
 			}
 		},
 		{
-			"name": "String",
+			"name": "Strings",
 			"scope": [
+				"string.quoted.single.shell",
+				"string.quoted.double.shell",
+
 				"string.quoted.single.env",
 				"string.quoted.double.env",
 
@@ -372,6 +379,8 @@
 		{
 			"name": "Regex",
 			"scope": [
+				"punctuation.definition.variable.shell",
+
 				"meta.fstring.python constant.character.format.placeholder.other.python",
 
 				"string.regexp.double-quoted.php",
@@ -424,6 +433,12 @@
 		{
 			"name": "Operators & Keywords",
 			"scope": [
+				"keyword.control.shell",
+				"keyword.operator.logical.shell",
+				"keyword.operator.redirect.shell",
+				"keyword.operator.expansion.shell",
+				"punctuation.definition.logical-expression.shell",
+
 				"keyword.operator.assignment.env",
 
 				"keyword.operator.unpacking.parameter.python",
@@ -500,6 +515,7 @@
 				"keyword.other.namespace.php",
 				"keyword.control.default.php",
 				"keyword.control.foreach.php",
+				"keyword.control.continue.php",
 				"keyword.operator.logical.php",
 				"keyword.control.endwhile.php",
 				"keyword.operator.ternary.php",
@@ -639,6 +655,11 @@
 		{
 			"name": "Variables",
 			"scope": [
+				"variable.other.loop.shell",
+				"variable.other.normal.shell",
+				"variable.other.bracket.shell",
+				"meta.scope.for-in-loop.shell",
+
 				"variable.other.env",
 
 				"meta.function-call.arguments.python",
@@ -838,6 +859,8 @@
 		{
 			"name": "Support Functions",
 			"scope": [
+				"support.function.builtin.shell",
+
 				"support.function.builtin.python",
 
 				"support.function.php",
