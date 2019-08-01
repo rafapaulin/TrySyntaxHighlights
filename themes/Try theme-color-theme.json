@@ -15,6 +15,9 @@
 		{
 			"name": "Comment",
 			"scope": [
+				"comment.line.number-sign.shell",
+				"comment.line.number-sign.shebang.shell",
+
 				"comment.line.number-sign.python",
 
 				"comment.block",
@@ -42,9 +45,7 @@
 
 				"comment.line.double-slash.ts",
 
-				"comment.line.number-sign.env",
-
-				"comment.line.number-sign.shell"
+				"comment.line.number-sign.env"
 			],
 			"settings": {
 				"foreground": "#666666"
@@ -53,6 +54,8 @@
 		{
 			"name": "Def, Punct, Sep, etc.",
 			"scope": [
+				"punctuation.terminator.statement.semicolon.shell",
+
 				"punctuation.separator.parameters.python",
 				"punctuation.section.class.begin.python",
 				"punctuation.section.function.begin.python",
@@ -182,6 +185,8 @@
 		{
 			"name": "Basic Text",
 			"scope": [
+				"source.shell",
+
 				"text.html.basic",
 				"text.html.twig",
 				"text.html.blade",
@@ -221,6 +226,9 @@
 		{
 			"name": "ID Name",
 			"scope": [
+				"string.other.math.shell",
+				"meta.scope.logical-expression.shell",
+
 				"meta.attribute.id.html string.unquoted.html",
 				"meta.attribute.id.html string.quoted.single.html",
 				"meta.attribute.id.html string.quoted.double.html",
@@ -377,10 +385,14 @@
 			}
 		},
 		{
-			"name": "Regex",
+			"name": "Regex & Interpolation",
 			"scope": [
-				"keyword.operator.glob.shell",
-				"variable.other.bracket.shell punctuation.definition.variable.shell",
+				"punctuation.definition.evaluation.parens.end.shell",
+				"punctuation.definition.evaluation.parens.begin.shell",
+				"punctuation.section.bracket.curly.variable.end.shell",
+				"punctuation.section.bracket.curly.variable.begin.shell",
+				"punctuation.definition.evaluation.arithmetic.end.shell",
+				"punctuation.definition.evaluation.arithmetic.begin.shell",
 
 				"meta.fstring.python constant.character.format.placeholder.other.python",
 
@@ -434,10 +446,15 @@
 			"name": "Operators & Keywords",
 			"scope": [
 				"keyword.control.shell",
+				"keyword.operator.pipe.shell",
 				"keyword.operator.logical.shell",
 				"keyword.operator.redirect.shell",
 				"keyword.operator.expansion.shell",
+				"keyword.operator.arithmetic.shell",
+				"keyword.operator.assignment.shell",
+				"punctuation.separator.statement.and.shell",
 				"punctuation.definition.logical-expression.shell",
+				"punctuation.separator.statement.background.shell",
 
 				"keyword.operator.assignment.env",
 
@@ -627,6 +644,9 @@
 		{
 			"name": "Numbers",
 			"scope": [
+				"constant.numeric.integer.shell",
+				"constant.numeric.decimal.shell",
+
 				"constant.numeric.env",
 
 				"constant.numeric.integer.decimal.python",
@@ -656,10 +676,8 @@
 		{
 			"name": "Variables",
 			"scope": [
-				"variable.other.loop.shell",
+				"variable.other.assignment.shell",
 				"variable.other.normal.shell",
-				"variable.other.bracket.shell",
-				"meta.scope.for-in-loop.shell",
 
 				"variable.other.env",
 
@@ -860,8 +878,6 @@
 		{
 			"name": "Support Functions",
 			"scope": [
-				"support.function.builtin.shell",
-
 				"support.function.builtin.python",
 
 				"support.function.php",
@@ -1057,6 +1073,8 @@
 		{
 			"name": "Function Name",
 			"scope": [
+				"entity.name.command.shell",
+
 				"meta.function-call.generic.python",
 				"entity.name.function.python",
 
@@ -1101,8 +1119,11 @@
 			}
 		},
 		{
-			"name": "Function Parameter",
+			"name": "Parameters",
 			"scope": [
+				"string.unquoted.argument.shell constant.other.option.shell",
+				"string.unquoted.argument.shell constant.other.option.dash.shell",
+
 				"variable.parameter.function.language.python",
 
 				"meta.function.parameters.php punctuation.definition.variable.php",
@@ -1157,6 +1178,9 @@
 		{
 			"name": "Item Arguments",
 			"scope": [
+				"meta.argument.shell string.unquoted.argument.shell",
+				"meta.argument.shell support.function.builtin.shell",
+
 				"meta.item-access.arguments.python",
 				"meta.item-access.arguments.python string.quoted.single.python",
 				"meta.item-access.arguments.python string.quoted.double.python",
@@ -1169,8 +1193,7 @@
 				"meta.item-access.arguments.php string.quoted.double.php punctuation.definition.string.end.php"
 			],
 			"settings": {
-				"foreground": "#C47FDB",
-				"fontStyle": "italic"
+				"foreground": "#C47FDB"
 			}
 		},
 		{
