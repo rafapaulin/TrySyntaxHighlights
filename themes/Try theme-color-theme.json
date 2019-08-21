@@ -55,6 +55,8 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "punctuation.definition.arguments.shell",
+                "punctuation.definition.group.shell",
                 "punctuation.terminator.statement.semicolon.shell",
                 "constant.character.escape.line-continuation.shell",
 
@@ -895,6 +897,7 @@
             "name": "Support Functions",
             "scope": [
                 "support.function.builtin.python",
+
                 "support.function.php",
                 "support.function.var.php",
                 "support.function.xml.php",
@@ -1089,6 +1092,7 @@
         {
             "name": "Function Name",
             "scope": [
+                "entity.name.function.shell",
                 "entity.name.command.shell",
 
                 "meta.function-call.generic.python",
@@ -1194,6 +1198,7 @@
         {
             "name": "Item Arguments",
             "scope": [
+                "meta.argument.shell",
                 "meta.argument.shell string.unquoted.argument.shell",
                 "meta.argument.shell support.function.builtin.shell",
 
