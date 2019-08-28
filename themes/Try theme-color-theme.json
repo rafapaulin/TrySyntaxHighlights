@@ -55,8 +55,11 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
-                "punctuation.definition.arguments.shell",
+                "meta.scope.case-clause-body.shell",
                 "punctuation.definition.group.shell",
+                "punctuation.definition.arguments.shell",
+                "punctuation.terminator.case-clause.shell",
+                "punctuation.definition.case-pattern.shell",
                 "punctuation.terminator.statement.semicolon.shell",
                 "constant.character.escape.line-continuation.shell",
 
@@ -464,6 +467,7 @@
                 "keyword.operator.expansion.shell",
                 "keyword.operator.arithmetic.shell",
                 "keyword.operator.assignment.shell",
+                "punctuation.separator.pipe-sign.shell",
                 "punctuation.separator.statement.and.shell",
                 "punctuation.definition.logical-expression.shell",
                 "punctuation.separator.statement.background.shell",
@@ -1094,6 +1098,7 @@
             "scope": [
                 "entity.name.function.shell",
                 "entity.name.command.shell",
+                "support.function.builtin.shell",
 
                 "meta.function-call.generic.python",
                 "entity.name.function.python",
@@ -1199,6 +1204,7 @@
             "name": "Item Arguments",
             "scope": [
                 "meta.argument.shell",
+                "meta.scope.case-pattern.shell",
                 "meta.argument.shell string.unquoted.argument.shell",
                 "meta.argument.shell support.function.builtin.shell",
 
