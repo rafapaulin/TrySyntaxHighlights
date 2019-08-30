@@ -474,13 +474,14 @@
 
                 "keyword.operator.assignment.env",
 
-                "keyword.operator.unpacking.parameter.python",
-                "keyword.operator.logical.python",
+                "keyword.operator.python",
                 "keyword.control.flow.python",
                 "keyword.control.import.python",
+                "keyword.operator.logical.python",
                 "keyword.operator.assignment.python",
                 "keyword.operator.arithmetic.python",
                 "keyword.operator.comparison.python",
+                "keyword.operator.unpacking.parameter.python",
 
                 "keyword.other.special-method.dockerfile",
 
