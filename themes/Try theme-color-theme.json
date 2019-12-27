@@ -439,6 +439,8 @@
         {
             "name": "Reserved words",
             "scope": [
+                "constant.language.dart",
+
                 "constant.language.true.shell",
                 "constant.language.false.shell",
 
@@ -471,7 +473,11 @@
             "name": "Operators & Keywords",
             "scope": [
                 "keyword.control.dart",
+                "keyword.other.import.dart",
                 "keyword.operator.ternary.dart",
+                "keyword.operator.assignment.dart",
+                "keyword.operator.comparison.dart",
+                "keyword.operator.increment-decrement.dart",
 
                 "keyword.control.shell",
                 "keyword.operator.pipe.shell",
@@ -676,6 +682,8 @@
         {
             "name": "Numbers",
             "scope": [
+                "constant.numeric.dart",
+
                 "constant.numeric.integer.shell",
                 "constant.numeric.decimal.shell",
 
@@ -708,6 +716,8 @@
         {
             "name": "Variables",
             "scope": [
+                "variable.parameter.dart",
+
                 "variable.other.loop.shell",
                 "variable.other.normal.shell",
                 "variable.other.assignment.shell",
@@ -782,6 +792,8 @@
         {
             "name": "Namespace & URLs",
             "scope": [
+                "meta.declaration.dart string.interpolated.single.dart",
+
                 "entity.name.tag.namespace.xml",
                 "entity.other.attribute-name.namespace.xml",
 
@@ -876,9 +888,11 @@
         {
             "name": "Storage types",
             "scope": [
-                "storage.modifier.shell",
+                "storage.modifier.dart",
                 "keyword.declaration.dart",
                 "storage.type.primitive.dart",
+                
+                "storage.modifier.shell",
 
                 "storage.type.class.python",
                 "storage.type.function.python",
@@ -1156,6 +1170,8 @@
         {
             "name": "function KWs",
             "scope": [
+                "keyword.operator.closure.dart",
+
                 "storage.type.function.shell",
 
                 "storage.type.function.arrow.js",
