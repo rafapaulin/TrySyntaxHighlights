@@ -15,6 +15,8 @@
         {
             "name": "Comment",
             "scope": [
+                "comment.line.double-slash.dart",
+
                 "comment.line.number-sign.shell",
                 "comment.line.number-sign.shebang.shell",
 
@@ -55,6 +57,9 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "source.dart",
+                "punctuation.comma.dart",
+
                 "meta.scope.case-clause-body.shell",
                 "punctuation.definition.group.shell",
                 "punctuation.definition.arguments.shell",
@@ -145,6 +150,7 @@
                 "punctuation.definition.parameters.begin.js",
                 "punctuation.definition.section.case-statement.js",
                 "meta.tag.attributes.js keyword.operator.assignment.js",
+                "punctuation.definition.binding-pattern.object.js",
 
                 "text.plain",
 
@@ -217,6 +223,7 @@
         {
             "name": "ID Attribute",
             "scope": [
+                "constant.character.entity.numeric.decimal.html",
                 "meta.attribute.id.html entity.other.attribute-name.html",
                 "entity.other.attribute-name.id.html",
                 "constant.character.entity.html",
@@ -325,6 +332,9 @@
         {
             "name": "Strings",
             "scope": [
+                "string.interpolated.single.dart",
+                "string.interpolated.double.dart",
+
                 "string.quoted.single.shell",
                 "string.quoted.double.shell",
 
@@ -460,6 +470,9 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.control.dart",
+                "keyword.operator.ternary.dart",
+
                 "keyword.control.shell",
                 "keyword.operator.pipe.shell",
                 "keyword.operator.logical.shell",
@@ -698,8 +711,9 @@
                 "variable.other.loop.shell",
                 "variable.other.normal.shell",
                 "variable.other.assignment.shell",
-                "variable.parameter.positional.shell",
                 "variable.language.special.shell",
+                "variable.parameter.positional.shell",
+                "variable.parameter.positional.all.shell",
 
                 "variable.other.env",
 
@@ -733,6 +747,8 @@
         {
             "name": "Decorators, pseudos, this, super & parent Keywords",
             "scope": [
+                "storage.type.annotation.dart",
+
                 "entity.name.function.decorator.python",
                 "variable.language.special.self.python",
 
@@ -829,6 +845,7 @@
         {
         "name": "Colors",
             "scope": [
+                "constant.language.color.rgb-value.css.sass",
                 "constant.other.color.rgb-value.hex.css",
                 "constant.other.color.rgb-value.css",
                 "support.constant.color.w3c-color-name.css",
@@ -859,6 +876,10 @@
         {
             "name": "Storage types",
             "scope": [
+                "storage.modifier.shell",
+                "keyword.declaration.dart",
+                "storage.type.primitive.dart",
+
                 "storage.type.class.python",
                 "storage.type.function.python",
                 "storage.type.string.python",
@@ -1042,6 +1063,8 @@
         {
             "name": "Classes, Traits & Interfaces",
             "scope": [
+                "support.class.dart",
+
                 "entity.name.type.class.python",
 
                 "entity.name.type.js",
@@ -1097,6 +1120,8 @@
         {
             "name": "Function Name",
             "scope": [
+                "entity.name.function.dart",
+
                 "entity.name.function.shell",
                 "entity.name.command.shell",
                 "support.function.builtin.shell",
@@ -1131,6 +1156,8 @@
         {
             "name": "function KWs",
             "scope": [
+                "storage.type.function.shell",
+
                 "storage.type.function.arrow.js",
                 "storage.type.function.js",
 
@@ -1186,16 +1213,23 @@
         {
             "name": "Unit",
             "scope": [
-                "keyword.other.unit.vh.css",
+                "keyword.other.unit.sass",
+                "constant.other.unit.sass",
                 "keyword.other.unit.vh.sass",
-                "keyword.other.unit.vw.css",
                 "keyword.other.unit.vw.sass",
-                "keyword.other.unit.rem.css",
+                "keyword.other.unit.em.sass",
+                "keyword.other.unit.px.sass",
+                "keyword.other.unit.rem.sass",
+                "keyword.control.unit.css.sass",
+                "keyword.other.unit.percentage.sass",
+                
+                "keyword.other.unit.css",
+                "keyword.other.unit.vh.css",
+                "keyword.other.unit.vw.css",
                 "keyword.other.unit.em.css",
                 "keyword.other.unit.px.css",
-                "keyword.other.unit.percentage.css",
-                "keyword.other.unit.css",
-                "constant.other.unit.sass"
+                "keyword.other.unit.rem.css",
+                "keyword.other.unit.percentage.css"
             ],
             "settings": {
                 "foreground": "#B34F97"
