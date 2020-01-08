@@ -1019,6 +1019,7 @@
                 "support.variable.property.process.js",
 
                 "support.function.sass",
+
                 "support.function.url.css",
                 "support.function.rgba.css",
                 "support.function.calc.css",
@@ -1032,6 +1033,7 @@
                 "support.function.calc.sass",
                 "support.function.rotate.css",
                 "support.function.format.css",
+                "source.sass entity.name.function",
                 "support.function.cubic-bezier.css",
                 "support.function.linear-gradient.css",
                 "support.function.linear-gradient.sass",
