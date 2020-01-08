@@ -276,7 +276,7 @@
                 "entity.name.tag.js",
 
                 "entity.name.tag.yaml",
-
+                
                 "punctuation.section.embedded.end.php source.php",
 
                 "entity.name.tag.xml",
@@ -297,6 +297,7 @@
                 "entity.name.tag.other.html",
                 "entity.name.tag.script.html",
                 "entity.name.tag.custom.html",
+                "entity.name.tag.template.html",
                 "entity.name.tag.inline.a.html",
                 "entity.name.tag.block.any.html",
                 "entity.name.tag.block.form.html",
@@ -591,6 +592,7 @@
                 "keyword.operator.error-control.php",
                 "keyword.control.import.include.php",
                 "keyword.control.exception.catch.php",
+                "keyword.operator.null-coalescing.php",
                 "punctuation.terminator.statement.php",
                 "support.function.basic_functions.php",
                 "punctuation.accessor.double-colon.php",
@@ -638,6 +640,7 @@
                 "keyword.operator.css.sass",
                 "keyword.other.default.scss",
                 "keyword.other.important.css",
+                "keyword.control.at-rule.use",
                 "keyword.other.important.scss",
                 "keyword.other.important.sass",
                 "keyword.operator.combinator.css",
@@ -809,6 +812,7 @@
 
                 "meta.at-rule.import.scss string.quoted.single.scss",
                 "meta.at-rule.import.scss string.quoted.double.scss",
+                "keyword.control.at-rule.use constant.character.css.sass",
 
                 "meta.use.php",
                 "meta.namespace.php",
@@ -967,6 +971,7 @@
                 "support.function.mbstring.php",
                 "support.function.php_pcre.php",
                 "support.function.funchand.php",
+                "support.function.password.php",
                 "support.function.classobj.php",
                 "support.function.errorfunc.php",
                 "support.function.construct.php",
@@ -974,7 +979,7 @@
                 "support.function.php_apache.php",
                 "support.function.streamsfuncs.php",
                 "support.function.construct.output.php",
-
+                
                 "support.function.construct.end.blade",
                 "support.function.construct.begin.blade",
 
