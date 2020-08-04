@@ -713,6 +713,7 @@
         {
             "name": "Numbers",
             "scope": [
+                "constant.numeric.float.graphql",
                 "constant.numeric.dart",
 
                 "constant.numeric.integer.shell",
