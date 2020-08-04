@@ -1211,7 +1211,6 @@
                 "support.function.console.js",
                 "support.function.mutator.js",
                 "entity.name.method.js",
-                "meta.method.declaration.js string.quoted.single.js",
 
                 "entity.name.function.ts",
                 "support.function.console.ts",
