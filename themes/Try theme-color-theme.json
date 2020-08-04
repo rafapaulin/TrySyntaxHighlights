@@ -15,6 +15,8 @@
         {
             "name": "Comment",
             "scope": [
+                "comment.line.graphql",
+                
                 "comment.line.double-slash.dart",
 
                 "comment.line.number-sign.shell",
@@ -57,6 +59,12 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "source.graphql",
+                "meta.brace.round.directive.graphql",
+                "punctuation.colon.graphql",
+                "meta.brace.curly.graphql",
+                "punctuation.comma.graphql",
+
                 "source.dart",
                 "punctuation.comma.dart",
 
@@ -129,12 +137,14 @@
                 "punctuation.definition.group.begin.php",
                 "punctuation.section.brackets.begin.php",
                 "punctuation.definition.block.begin.php",
-
+                "punctuation.definition.arguments.end.bracket.round.php",
+                
                 "source.js",
                 "meta.brace.round.js",
                 "meta.brace.square.js",
                 "meta.delimiter.comma.js",
                 "punctuation.accessor.js",
+                "punctuation.destructuring.js",
                 "punctuation.separator.comma.js",
                 "punctuation.definition.block.js",
                 "punctuation.definition.group.js",
@@ -189,7 +199,9 @@
                 "punctuation.definition.parameters.begin.ts",
                 "punctuation.definition.typeparameters.end.ts",
                 "punctuation.definition.typeparameters.begin.ts",
-                "punctuation.definition.binding-pattern.array.ts"
+                "punctuation.definition.binding-pattern.array.ts",
+                "punctuation.destructuring.ts",
+                "punctuation.definition.binding-pattern.object.ts"
             ],
             "settings": {
                 "foreground": "#BBBBBB"
@@ -269,7 +281,7 @@
               "fontStyle": " italic bold",
               "foreground": "#16946C"
             }
-          },
+        },
         {
             "name": "Elements",
             "scope": [
@@ -333,6 +345,8 @@
         {
             "name": "Strings",
             "scope": [
+                "string.quoted.single.graphql",
+                "string.quoted.double.graphql",
                 "string.interpolated.single.dart",
                 "string.interpolated.double.dart",
 
@@ -473,6 +487,9 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.nulltype.graphql",
+                "keyword.operation.graphql",
+
                 "keyword.control.dart",
                 "keyword.other.import.dart",
                 "keyword.operator.ternary.dart",
@@ -543,6 +560,8 @@
                 "keyword.operator.expression.typeof.ts",
                 "keyword.operator.assignment.compound.ts",
                 "keyword.operator.expression.instanceof.ts",
+                "punctuation.accessor.optional.ts",
+                "keyword.control.new.ts",
 
                 "keyword.control.php",
                 "keyword.other.new.php",
@@ -632,6 +651,7 @@
                 "keyword.operator.assignment.compound.js",
                 "keyword.operator.expression.instanceof.js",
                 "punctuation.definition.section.case-statement.js",
+                "keyword.operator.expression.import.js",
 
                 "meta.selector.css",
                 "keyword.operator.css",
@@ -655,6 +675,12 @@
                 "keyword.control.at-rule.include.scss",
                 "keyword.control.at-rule.font-face.css",
                 "source.sass keyword.control.at-rule.sass",
+                "keyword.control.at-rule.function.scss",
+                "keyword.control.content.scss",
+                "keyword.operator.scss",
+                "keyword.control.at-rule.function.sass",
+                "keyword.control.content.sass",
+                "keyword.operator.sass",
 
                 "entity.other.attribute-name.event.html",
                 "custom.compiler.blade.php punctuation.section.embedded.php",
@@ -673,9 +699,11 @@
                 "support.type.python",
 
                 "support.type.primitive.js",
+                "constant.language.infinity.js",
 
                 "support.type.primitive.ts",
-                "support.type.builtin.ts"
+                "support.type.builtin.ts",
+                "constant.language.infinity.ts"
             ],
             "settings": {
                 "foreground": "#ADD3FF",
@@ -760,6 +788,9 @@
         {
             "name": "Decorators, pseudos, this, super & parent Keywords",
             "scope": [
+                "meta.variables.graphql",
+                "meta.type.interface.graphql meta.variables.graphql support.type.graphql",
+                "entity.name.function.directive.graphql",
                 "storage.type.annotation.dart",
 
                 "entity.name.function.decorator.python",
@@ -804,6 +835,7 @@
                 "meta.import.ts string.quoted.double.ts",
                 "meta.export.ts string.quoted.single.ts",
                 "meta.export.ts string.quoted.double.ts",
+                "storage.type.namespace.ts",
 
                 "meta.import.js string.quoted.single.js",
                 "meta.import.js string.quoted.double.js",
@@ -879,6 +911,7 @@
                 "keyword.other.reserved.sass",
                 "meta.property-value.sass",
                 "support.constant.property-value.sass",
+                "support.constant.vendored.property-value.css",
                 "support.constant.font-name.sass",
                 "meta.property-value.css",
                 "support.constant.property-value.css",
@@ -892,6 +925,9 @@
         {
             "name": "Storage types",
             "scope": [
+                "keyword.scalar.graphql",
+                "keyword.type.graphql",
+
                 "storage.modifier.dart",
                 "keyword.declaration.dart",
                 "storage.type.primitive.dart",
@@ -908,11 +944,15 @@
                 "storage.type.interface.ts",
                 "storage.modifier.ts",
                 "storage.type.type.ts",
+                "storage.modifier.async.ts",
+                "storage.modifier.await.ts",
 
                 "storage.type.js",
                 "storage.type.class.js",
                 "storage.modifier.js",
                 "storage.type.interface.js",
+                "storage.modifier.async.js",
+                "storage.modifier.await.js",
 
                 "storage.type.class.php",
                 "storage.type.interface.php",
@@ -940,6 +980,7 @@
         {
             "name": "Support Functions",
             "scope": [
+                "support.type.builtin.graphql",
                 "support.function.builtin.python",
 
                 "support.function.php",
@@ -1047,6 +1088,7 @@
         {
             "name": "Object Property",
             "scope": [
+                "meta.type.object.graphql variable.graphql",
                 "meta.property.object.js",
                 "string.unquoted.label.js",
                 "variable.other.property.js",
@@ -1084,6 +1126,9 @@
         {
             "name": "Classes, Traits & Interfaces",
             "scope": [
+                "entity.scalar.graphql",
+                "meta.type.interface.graphql support.type.graphql",
+
                 "support.class.dart",
 
                 "entity.name.type.class.python",
@@ -1141,6 +1186,9 @@
         {
             "name": "Function Name",
             "scope": [
+
+                "entity.name.function.graphql",
+            
                 "entity.name.function.dart",
 
                 "entity.name.function.shell",
@@ -1162,6 +1210,7 @@
                 "support.function.console.js",
                 "support.function.mutator.js",
                 "entity.name.method.js",
+                "meta.method.declaration.js string.quoted.single.js",
 
                 "entity.name.function.ts",
                 "support.function.console.ts",
@@ -1197,6 +1246,8 @@
         {
             "name": "Parameters",
             "scope": [
+                "variable.parameter.graphql",
+
                 "string.unquoted.argument.shell constant.other.option.shell",
                 "string.unquoted.argument.shell constant.other.option.dash.shell",
 
