@@ -489,6 +489,7 @@
             "scope": [
                 "keyword.operator.nulltype.graphql",
                 "keyword.operation.graphql",
+                "keyword.extend.graphql",
 
                 "keyword.control.dart",
                 "keyword.other.import.dart",
