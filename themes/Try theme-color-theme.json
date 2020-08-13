@@ -749,6 +749,8 @@
         {
             "name": "Variables",
             "scope": [
+                "source.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+                "meta.arguments.graphql meta.objectvalues.graphql variable.graphql",
                 "variable.parameter.dart",
 
                 "variable.other.loop.shell",
@@ -1268,7 +1270,7 @@
                 "variable.parameter.js"
             ],
             "settings": {
-                "fontStyle": "normal",
+                "fontStyle": "",
                 "foreground": "#FF8800"
             }
         },
