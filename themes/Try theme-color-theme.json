@@ -1090,6 +1090,7 @@
         {
             "name": "Object Property",
             "scope": [
+                "meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
                 "meta.type.object.graphql variable.graphql",
                 "meta.property.object.js",
                 "string.unquoted.label.js",
@@ -1188,7 +1189,7 @@
         {
             "name": "Function Name",
             "scope": [
-
+                "meta.selectionset.graphql variable.graphql",
                 "entity.name.function.graphql",
             
                 "entity.name.function.dart",
@@ -1247,6 +1248,9 @@
         {
             "name": "Parameters",
             "scope": [
+
+                "meta.arguments.graphql meta.objectvalues.graphql constant.object.key.graphql string.unquoted.graphql",
+                "meta.selectionset.graphql meta.arguments.graphql variable.graphql",
                 "variable.parameter.graphql",
 
                 "string.unquoted.argument.shell constant.other.option.shell",
@@ -1264,6 +1268,7 @@
                 "variable.parameter.js"
             ],
             "settings": {
+                "fontStyle": "normal",
                 "foreground": "#FF8800"
             }
         },
