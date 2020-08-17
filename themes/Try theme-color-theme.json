@@ -1092,6 +1092,7 @@
         {
             "name": "Object Property",
             "scope": [
+                "meta.selectionset.graphql meta.selectionset.graphql string.unquoted.alias.graphql",
                 "meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
                 "meta.type.object.graphql variable.graphql",
                 "meta.property.object.js",
