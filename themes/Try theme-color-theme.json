@@ -784,7 +784,8 @@
 
                 "variable.other.object.ts",
                 "variable.object.property.ts",
-                "variable.other.readwrite.ts"
+                "variable.other.readwrite.ts",
+                "meta.decorator.ts meta.objectliteral.ts variable.other.readwrite.ts"
             ],
             "settings": {
                 "foreground": "#ADD3FF"
