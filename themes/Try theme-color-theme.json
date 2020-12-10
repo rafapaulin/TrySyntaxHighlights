@@ -817,6 +817,7 @@
                 "meta.decorator.ts entity.name.function.ts",
                 "meta.decorator.ts variable.other.readwrite.ts",
                 "meta.decorator.ts variable.other.constant.object.ts",
+                "meta.decorator.ts variable.other.property.ts",
 
                 "variable.language.php",
 
