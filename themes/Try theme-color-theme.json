@@ -816,6 +816,7 @@
                 "meta.decorator.ts support.class.node.ts",
                 "meta.decorator.ts entity.name.function.ts",
                 "meta.decorator.ts variable.other.readwrite.ts",
+                "meta.decorator.ts variable.other.constant.object.ts",
 
                 "variable.language.php",
 
@@ -1045,6 +1046,7 @@
                 "support.variable.object.process.ts",
                 "support.variable.property.process.ts",
                 "meta.method.declaration.ts storage.type.property.ts",
+                "support.type.object.module.ts",
 
                 "support.class.js",
                 "support.function.js",
@@ -1065,6 +1067,8 @@
                 "support.function.event-handler.js",
                 "support.variable.object.process.js",
                 "support.variable.property.process.js",
+                "support.type.object.module.js",
+
 
                 "support.function.sass",
 
