@@ -798,6 +798,8 @@
                 "meta.type.interface.graphql meta.variables.graphql support.type.graphql",
                 "entity.name.function.directive.graphql",
                 "storage.type.annotation.dart",
+                "meta.enum.graphql meta.type.object.graphql",
+
 
                 "entity.name.function.decorator.python",
                 "variable.language.special.self.python",
@@ -873,6 +875,8 @@
         {
             "name": "Constants",
             "scope": [
+                "constant.character.enum.graphql",
+
                 "support.constant.js",
                 "support.constant.math.js",
                 "variable.other.constant.js",
@@ -936,6 +940,8 @@
             "scope": [
                 "keyword.scalar.graphql",
                 "keyword.type.graphql",
+                "keyword.enum.graphql",
+                "keyword.input.graphql",
 
                 "storage.modifier.dart",
                 "keyword.declaration.dart",
@@ -1142,6 +1148,7 @@
             "scope": [
                 "entity.scalar.graphql",
                 "meta.type.interface.graphql support.type.graphql",
+                "meta.enum.graphql support.type.enum.graphql",
 
                 "support.class.dart",
 
