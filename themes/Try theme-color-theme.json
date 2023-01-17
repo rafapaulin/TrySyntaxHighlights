@@ -59,6 +59,12 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "punctuation.definition.binding-pattern.array.js",
+                "punctuation.operation.graphql",
+                "meta.brace.square.graphql",
+                "string.quoted.double.php meta.method-call.php punctuation.definition.arguments.begin.bracket.round.php",
+                "string.quoted.double.php meta.method-call.php punctuation.definition.arguments.end.bracket.round.php",
+
                 "source.graphql",
                 "meta.brace.round.directive.graphql",
                 "punctuation.colon.graphql",
@@ -325,6 +331,7 @@
         {
             "name": "DOM Attributes",
             "scope": [
+                "keyword.control.loop.vue",
                 "entity.other.attribute-name.js",
 
                 "entity.other.attribute-name.xml",
@@ -345,6 +352,8 @@
         {
             "name": "Strings",
             "scope": [
+                "string.unquoted.block.yaml",
+
                 "string.quoted.single.graphql",
                 "string.quoted.double.graphql",
                 "string.interpolated.single.dart",
@@ -487,6 +496,14 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.other.clone.php",
+                "keyword.operator.spread.graphql",
+                "keyword.on.graphql",
+                "punctuation.assignment.graphql",
+                "punctuation.operation.graphql",
+                "punctuation.or.graphql",
+                "keyword.operator.expression.keyof.ts",
+
                 "keyword.operator.nulltype.graphql",
                 "keyword.operation.graphql",
                 "keyword.extend.graphql",
@@ -875,6 +892,8 @@
         {
             "name": "Constants",
             "scope": [
+                "variable.other.enummember.ts",
+
                 "constant.character.enum.graphql",
 
                 "support.constant.js",
@@ -938,6 +957,10 @@
         {
             "name": "Storage types",
             "scope": [
+                "entity.name.function.tagged-template.js",
+                "keyword.union.graphql",
+                "storage.type.enum.ts",
+
                 "keyword.scalar.graphql",
                 "keyword.type.graphql",
                 "keyword.enum.graphql",
@@ -995,6 +1018,7 @@
         {
             "name": "Support Functions",
             "scope": [
+                "support.function.constructor.php",
                 "support.type.builtin.graphql",
                 "support.function.builtin.python",
 
@@ -1104,8 +1128,13 @@
             }
         },
         {
-            "name": "Object Property",
+            "name": "Object Property Key",
             "scope": [
+                "meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts string.quoted.single.ts",
+                "meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts string.quoted.double.ts",
+                "meta.parameter.object-binding-pattern.js string.quoted.single.js",
+                "meta.parameter.object-binding-pattern.js string.quoted.double.js",
+                
                 "meta.selectionset.graphql meta.selectionset.graphql string.unquoted.alias.graphql",
                 "meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
                 "meta.type.object.graphql variable.graphql",
@@ -1121,6 +1150,11 @@
                 "variable.other.constant.object.property.js",
                 "meta.object-literal.key.js string.quoted.single.js",
                 "meta.object-literal.key.js string.quoted.double.js",
+
+                "meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts string.quoted.single.ts",
+                "meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts string.quoted.double.ts",
+                "meta.parameter.object-binding-pattern.js string.quoted.single.js",
+                "meta.parameter.object-binding-pattern.js string.quoted.double.js",
 
                 "meta.object-literal.key.ts",
                 "variable.other.property.ts",
@@ -1146,6 +1180,17 @@
         {
             "name": "Classes, Traits & Interfaces",
             "scope": [
+                "meta.selectionset.graphql support.type.graphql",
+                "support.type.graphql",
+                "entity.name.function.tagged-template.js",
+                "new.expr.ts meta.function-call.ts entity.name.function.ts",
+                "support.class.component.html",
+                "entity.name.type.enum.ts",
+
+                "keyword.other.type.php",
+                "meta.class.php meta.class.body.php meta.function.php support.class.php",
+                "meta.class.php meta.class.body.php meta.function.php keyword.other.type.php",
+
                 "entity.scalar.graphql",
                 "meta.type.interface.graphql support.type.graphql",
                 "meta.enum.graphql support.type.enum.graphql",
@@ -1249,6 +1294,8 @@
                 "keyword.operator.closure.dart",
 
                 "storage.type.function.shell",
+
+                "punctuation.definition.arrow.php",
 
                 "storage.type.function.arrow.js",
                 "storage.type.function.js",
