@@ -57,6 +57,20 @@
             }
         },
         {
+            "name": "Embbebed SQL",
+            "scope": [
+                "source.sql.embedded.php",
+                "string.quoted.single.sql",
+                "string.quoted.double.sql",
+                "punctuation.definition.string.begin.sql",
+                "punctuation.definition.string.end.sql",
+            ],
+            "settings": {
+                "fontStyle": " italic",
+                "foreground": "#ffd29f"
+            }
+        },
+        {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
                 "punctuation.definition.binding-pattern.array.js",
@@ -396,8 +410,6 @@
 
                 "string.quoted.single.php",
                 "string.quoted.double.php",
-                "string.quoted.single.sql.php",
-                "string.quoted.double.sql.php",
                 "meta.string-contents.quoted.single.php",
                 "meta.string-contents.quoted.double.php",
 
@@ -496,6 +508,10 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.other.DML.sql",
+                "keyword.operator.star.sql",
+                "keyword.operator.comparison.sql",
+
                 "keyword.other.clone.php",
                 "keyword.operator.spread.graphql",
                 "keyword.on.graphql",
@@ -732,6 +748,8 @@
         {
             "name": "Numbers",
             "scope": [
+                "constant.numeric.sql",
+
                 "constant.numeric.float.graphql",
                 "constant.numeric.dart",
 
@@ -827,6 +845,7 @@
                 "variable.language.this.php punctuation.definition.variable.php",
                 "meta.trait.php meta.trait.body.php meta.function.php keyword.other.type.php",
                 "meta.class.php meta.class.body.php meta.function.php keyword.other.type.php",
+                "meta.class.php meta.class.body.php meta.function.php support.class.php",
 
                 "variable.language.super.js",
                 "variable.language.this.js",
@@ -1132,6 +1151,9 @@
         {
             "name": "Object Property Key",
             "scope": [
+                "string.quoted.other.backtick.sql punctuation.definition.string.end.sql",
+                "string.quoted.other.backtick.sql",
+
                 "meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts string.quoted.single.ts",
                 "meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts string.quoted.double.ts",
                 "meta.parameter.object-binding-pattern.js string.quoted.single.js",
@@ -1188,8 +1210,6 @@
                 "new.expr.ts meta.function-call.ts entity.name.function.ts",
                 "support.class.component.html",
                 "entity.name.type.enum.ts",
-
-                "meta.class.php meta.class.body.php meta.function.php support.class.php",
 
                 "entity.scalar.graphql",
                 "meta.type.interface.graphql support.type.graphql",
