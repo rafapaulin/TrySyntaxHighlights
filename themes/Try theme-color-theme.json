@@ -825,6 +825,7 @@
                 "keyword.other.class.php",
                 "variable.language.this.php",
                 "variable.language.this.php punctuation.definition.variable.php",
+                "meta.trait.php meta.trait.body.php meta.function.php keyword.other.type.php",
 
                 "variable.language.super.js",
                 "variable.language.this.js",
