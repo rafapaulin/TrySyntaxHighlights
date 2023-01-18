@@ -826,6 +826,7 @@
                 "variable.language.this.php",
                 "variable.language.this.php punctuation.definition.variable.php",
                 "meta.trait.php meta.trait.body.php meta.function.php keyword.other.type.php",
+                "meta.class.php meta.class.body.php meta.function.php keyword.other.type.php",
 
                 "variable.language.super.js",
                 "variable.language.this.js",
@@ -1188,9 +1189,7 @@
                 "support.class.component.html",
                 "entity.name.type.enum.ts",
 
-                "keyword.other.type.php",
                 "meta.class.php meta.class.body.php meta.function.php support.class.php",
-                "meta.class.php meta.class.body.php meta.function.php keyword.other.type.php",
 
                 "entity.scalar.graphql",
                 "meta.type.interface.graphql support.type.graphql",
