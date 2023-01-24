@@ -71,6 +71,18 @@
             }
         },
         {
+            "name": "Embbebed SQL Operators",
+            "scope": [
+                "keyword.other.DML.sql",
+                "keyword.operator.star.sql",
+                "keyword.operator.comparison.sql",
+            ],
+            "settings": {
+                "fontStyle": " bold italic",
+                "foreground": "#ffd29f"
+            }
+        },
+        {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
                 "punctuation.definition.binding-pattern.array.js",
@@ -508,10 +520,6 @@
         {
             "name": "Operators & Keywords",
             "scope": [
-                "keyword.other.DML.sql",
-                "keyword.operator.star.sql",
-                "keyword.operator.comparison.sql",
-
                 "keyword.other.clone.php",
                 "keyword.operator.spread.graphql",
                 "keyword.on.graphql",
