@@ -32,5 +32,8 @@
         "hightlight",
         "theme",
         "customization"
-    ]
+    ],
+    "devDependencies": {
+        "vsce": "^2.15.0"
+    }
 }
