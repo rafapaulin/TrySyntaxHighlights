@@ -15,6 +15,8 @@
         {
             "name": "Comment",
             "scope": [
+                "comment.line.number-sign.hcl",
+
                 "comment.line.graphql",
                 
                 "comment.line.double-slash.dart",
@@ -62,6 +64,7 @@
                 "source.sql.embedded.php",
                 "string.quoted.single.sql",
                 "string.quoted.double.sql",
+                "keyword.other.alias.sql",
                 "punctuation.definition.string.begin.sql",
                 "punctuation.definition.string.end.sql",
             ],
@@ -85,6 +88,24 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "meta.braces.hcl",
+                "punctuation.separator.hcl",
+                "punctuation.section.brackets.begin.hcl",
+                "punctuation.section.brackets.end.hcl",
+                "punctuation.section.parens.begin.hcl",
+                "punctuation.section.parens.end.hcl",
+
+                "punctuation.definition.block.begin.tf",
+                "punctuation.definition.block.end.tf",
+                "punctuation.declaration.block.begin.tf",
+                "punctuation.declaration.block.end.tf",
+
+                "keyword.operator.accessor.hcl",
+                "punctuation.section.braces.begin.hcl",
+                "punctuation.section.braces.end.hcl",
+                "punctuation.section.block.begin.hcl",
+                "punctuation.section.block.end.hcl",
+
                 "punctuation.definition.binding-pattern.array.js",
                 "punctuation.operation.graphql",
                 "meta.brace.square.graphql",
@@ -236,7 +257,8 @@
                 "punctuation.definition.binding-pattern.object.ts"
             ],
             "settings": {
-                "foreground": "#BBBBBB"
+                "foreground": "#BBBBBB",
+                "fontStyle": ""
             }
         },
         {
@@ -359,6 +381,7 @@
             "scope": [
                 "keyword.control.loop.vue",
                 "entity.other.attribute-name.js",
+                "punctuation.attribute-shorthand.event.html.vue",
 
                 "entity.other.attribute-name.xml",
                 "entity.other.attribute-name.localname.xml",
@@ -378,6 +401,12 @@
         {
             "name": "Strings",
             "scope": [
+                "punctuation.definition.string.template.begin.tf",
+                "string.template.tf",
+
+                "string.quoted.single.hcl",
+                "string.quoted.double.hcl",
+
                 "string.unquoted.block.yaml",
 
                 "string.quoted.single.graphql",
@@ -442,7 +471,8 @@
                 "meta.attribute-with-value.style.html source.css"
             ],
             "settings": {
-                "foreground": "#FFFF9F"
+               "foreground": "#FFFF9F",
+               "fontStyle": "",
             }
         },
         {
@@ -456,6 +486,7 @@
         {
             "name": "Regex & Interpolation",
             "scope": [
+                "meta.interpolation.hcl",
                 "keyword.operator.glob.shell",
                 "punctuation.definition.evaluation.parens.end.shell",
                 "punctuation.definition.evaluation.parens.begin.shell",
@@ -487,6 +518,8 @@
         {
             "name": "Reserved words",
             "scope": [
+                "constant.language.hcl",
+
                 "constant.language.dart",
 
                 "constant.language.true.shell",
@@ -520,6 +553,12 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.assignment.tf",
+                "keyword.operator.assignment.hcl",
+                "keyword.control.match.php",
+                "keyword.control.else.shell",
+                "keyword.control.then.shell",
+
                 "keyword.other.clone.php",
                 "keyword.operator.spread.graphql",
                 "keyword.on.graphql",
@@ -756,6 +795,8 @@
         {
             "name": "Numbers",
             "scope": [
+                "constant.numeric.float.hcl",
+                "constant.numeric.integer.hcl",
                 "constant.numeric.sql",
 
                 "constant.numeric.float.graphql",
@@ -793,6 +834,10 @@
         {
             "name": "Variables",
             "scope": [
+                "variable.other.readwrite.terraform",
+
+                "variable.other.readwrite.hcl",
+
                 "source.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
                 "meta.arguments.graphql meta.objectvalues.graphql variable.graphql",
                 "variable.parameter.dart",
@@ -831,7 +876,8 @@
                 "meta.decorator.ts meta.objectliteral.ts variable.other.readwrite.ts"
             ],
             "settings": {
-                "foreground": "#ADD3FF"
+                "foreground": "#ADD3FF",
+                "fontStyle": "",
             }
         },
         {
@@ -921,6 +967,8 @@
         {
             "name": "Constants",
             "scope": [
+                "constant.enum.php",
+                "meta.block.hcl",
                 "variable.other.enummember.ts",
 
                 "constant.character.enum.graphql",
@@ -986,6 +1034,15 @@
         {
             "name": "Storage types",
             "scope": [
+                "storage.type.hcl",
+                "storage.type.enum.php",
+                "keyword.control.type.ts",
+
+                "keyword.declaration.provider.tf",
+                "keyword.declaration.resource.tf",
+                "keyword.declaration.terraform.tf",
+                "entity.name.type.terraform",
+
                 "entity.name.function.tagged-template.js",
                 "keyword.union.graphql",
                 "storage.type.enum.ts",
@@ -1047,6 +1104,8 @@
         {
             "name": "Support Functions",
             "scope": [
+                "support.function.builtin.terraform",
+
                 "support.function.constructor.php",
                 "support.type.builtin.graphql",
                 "support.function.builtin.python",
@@ -1159,6 +1218,15 @@
         {
             "name": "Object Property Key",
             "scope": [
+                "meta.block.ts entity.name.label.ts",
+                "source.ts.embedded.html.vue meta.block.ts entity.name.label.ts",
+                "meta.block.tf",
+
+                "support.provider.attribute.tf",
+
+                "entity.name.type.hcl",
+                "variable.other.member.hcl",
+
                 "string.quoted.other.backtick.sql punctuation.definition.string.end.sql",
                 "string.quoted.other.backtick.sql",
 
@@ -1206,12 +1274,15 @@
                 "support.type.vendored.property-name.sass"
             ],
             "settings": {
-                "foreground": "#C7A27F"
+                "foreground": "#C7A27F",
+                "fontStyle": "",
             }
         },
         {
             "name": "Classes, Traits & Interfaces",
             "scope": [
+                "entity.name.type.enum.php",
+                "meta.enum.php meta.enum.body.php meta.function.php keyword.other.type.php",
                 "meta.selectionset.graphql support.type.graphql",
                 "support.type.graphql",
                 "entity.name.function.tagged-template.js",
@@ -1324,6 +1395,7 @@
                 "storage.type.function.shell",
 
                 "punctuation.definition.arrow.php",
+                "keyword.definition.arrow.php",
 
                 "storage.type.function.arrow.js",
                 "storage.type.function.js",
@@ -1341,6 +1413,8 @@
         {
             "name": "Parameters",
             "scope": [
+                "string.unquoted.argument.shell",
+                "variable.other.enummember.hcl",
 
                 "meta.arguments.graphql meta.objectvalues.graphql constant.object.key.graphql string.unquoted.graphql",
                 "meta.selectionset.graphql meta.arguments.graphql variable.graphql",
