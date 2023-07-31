@@ -15,6 +15,7 @@
         {
             "name": "Comment",
             "scope": [
+                "comment.line.double-slash.groovy",
                 "comment.line.number-sign.hcl",
 
                 "comment.line.graphql",
@@ -88,6 +89,16 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "punctuation.definition.seperator.parameter.groovy",
+                "punctuation.definition.structure.begin.groovy",
+                "punctuation.definition.structure.end.groovy",
+                "meta.definition.method.groovy meta.method.body.java",
+                "keyword.operator.navigation.groovy",
+                "punctuation.definition.seperator.key-value.groovy",
+                "punctuation.definition.method-parameters.begin.groovy",
+                "punctuation.definition.method-parameters.end.groovy",
+
+                "source.groovy",
                 "meta.braces.hcl",
                 "punctuation.separator.hcl",
                 "punctuation.section.brackets.begin.hcl",
@@ -401,6 +412,10 @@
         {
             "name": "Strings",
             "scope": [
+                "string.quoted.single.multiline.groovy",
+                "string.quoted.double.multiline.groovy",
+                "string.quoted.single.groovy",
+                "string.quoted.double.groovy",
                 "punctuation.definition.string.template.begin.tf",
                 "string.template.tf",
 
@@ -486,6 +501,10 @@
         {
             "name": "Regex & Interpolation",
             "scope": [
+                "punctuation.definition.string.regexp.begin.groovy",
+                "string.regexp.groovy",
+                "source.groovy.embedded.source punctuation.section.embedded.groovy",
+
                 "meta.interpolation.hcl",
                 "keyword.operator.glob.shell",
                 "punctuation.definition.evaluation.parens.end.shell",
@@ -518,6 +537,7 @@
         {
             "name": "Reserved words",
             "scope": [
+                "constant.language.groovy",
                 "constant.language.hcl",
 
                 "constant.language.dart",
@@ -553,6 +573,9 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.control.new.groovy",
+                "keyword.control.groovy",
+                "keyword.operator.assignment.groovy",
                 "keyword.operator.assignment.tf",
                 "keyword.operator.assignment.hcl",
                 "keyword.control.match.php",
@@ -834,6 +857,7 @@
         {
             "name": "Variables",
             "scope": [
+                "variable.parameter.method.groovy",
                 "variable.other.readwrite.terraform",
 
                 "variable.other.readwrite.hcl",
@@ -967,6 +991,8 @@
         {
             "name": "Constants",
             "scope": [
+                "constant.other.groovy",
+
                 "constant.enum.php",
                 "meta.block.hcl",
                 "variable.other.enummember.ts",
@@ -1034,6 +1060,7 @@
         {
             "name": "Storage types",
             "scope": [
+                "storage.type.def.groovy",
                 "storage.type.hcl",
                 "storage.type.enum.php",
                 "keyword.control.type.ts",
@@ -1104,6 +1131,8 @@
         {
             "name": "Support Functions",
             "scope": [
+                "support.function.print.groovy",
+                "storage.type.groovy",
                 "support.function.builtin.terraform",
 
                 "support.function.constructor.php",
@@ -1218,6 +1247,7 @@
         {
             "name": "Object Property Key",
             "scope": [
+                "constant.other.key.groovy",
                 "meta.block.ts entity.name.label.ts",
                 "source.ts.embedded.html.vue meta.block.ts entity.name.label.ts",
                 "meta.block.tf",
@@ -1351,6 +1381,8 @@
         {
             "name": "Function Name",
             "scope": [
+                "meta.definition.method.signature.java entity.name.function.java",
+                "meta.method-call.groovy",
                 "meta.selectionset.graphql variable.graphql",
                 "entity.name.function.graphql",
             
