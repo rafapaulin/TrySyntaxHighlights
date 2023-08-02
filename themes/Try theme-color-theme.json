@@ -62,6 +62,7 @@
         {
             "name": "Embbebed SQL",
             "scope": [
+                "source.groovy.embedded.source",
                 "source.sql.embedded.php",
                 "string.quoted.single.sql",
                 "string.quoted.double.sql",
@@ -573,6 +574,13 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.comparison.groovy",
+                "keyword.operator.groovy",
+                "keyword.other.import.groovy",
+                "keyword.operator.logical.groovy",
+                "keyword.operator.ternary.groovy",
+                "keyword.operator.ternary.expression-seperator.groovy",
+
                 "keyword.control.new.groovy",
                 "keyword.control.groovy",
                 "keyword.operator.assignment.groovy",
@@ -818,6 +826,7 @@
         {
             "name": "Numbers",
             "scope": [
+                "constant.numeric.groovy",
                 "constant.numeric.float.hcl",
                 "constant.numeric.integer.hcl",
                 "constant.numeric.sql",
@@ -857,7 +866,8 @@
         {
             "name": "Variables",
             "scope": [
-                "variable.parameter.method.groovy",
+                "meta.definition.variable.groovy meta.definition.variable.name.groovy",
+                "variable.language.groovy",
                 "variable.other.readwrite.terraform",
 
                 "variable.other.readwrite.hcl",
@@ -907,6 +917,8 @@
         {
             "name": "Decorators, pseudos, this, super & parent Keywords",
             "scope": [
+                "meta.class.body.groovy variable.language.groovy",
+
                 "meta.variables.graphql",
                 "meta.type.interface.graphql meta.variables.graphql support.type.graphql",
                 "entity.name.function.directive.graphql",
@@ -953,6 +965,8 @@
         {
             "name": "Namespace & URLs",
             "scope": [
+                "storage.modifier.import.groovy",
+                "storage.modifier.package.groovy",
                 "meta.declaration.dart string.interpolated.single.dart",
 
                 "entity.name.tag.namespace.xml",
@@ -1060,6 +1074,9 @@
         {
             "name": "Storage types",
             "scope": [
+                "storage.modifier.access-control.groovy",
+                "keyword.other.package.groovy",
+                "storage.modifier.groovy",
                 "storage.type.def.groovy",
                 "storage.type.hcl",
                 "storage.type.enum.php",
@@ -1311,6 +1328,7 @@
         {
             "name": "Classes, Traits & Interfaces",
             "scope": [
+                "entity.name.type.class.groovy",
                 "entity.name.type.enum.php",
                 "meta.enum.php meta.enum.body.php meta.function.php keyword.other.type.php",
                 "meta.selectionset.graphql support.type.graphql",
@@ -1445,6 +1463,7 @@
         {
             "name": "Parameters",
             "scope": [
+                "variable.parameter.method.groovy",
                 "string.unquoted.argument.shell",
                 "variable.other.enummember.hcl",
 
