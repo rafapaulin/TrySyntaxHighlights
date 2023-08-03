@@ -917,6 +917,7 @@
         {
             "name": "Decorators, pseudos, this, super & parent Keywords",
             "scope": [
+                "meta.method.return-type.java",
                 "meta.class.body.groovy variable.language.groovy",
 
                 "meta.variables.graphql",
@@ -1005,6 +1006,7 @@
         {
             "name": "Constants",
             "scope": [
+                "constant.variable.groovy",
                 "constant.other.groovy",
 
                 "constant.enum.php",
@@ -1074,6 +1076,8 @@
         {
             "name": "Storage types",
             "scope": [
+                "storage.modifier.final.groovy",
+                "storage.modifier.static.groovy",
                 "storage.modifier.access-control.groovy",
                 "keyword.other.package.groovy",
                 "storage.modifier.groovy",
