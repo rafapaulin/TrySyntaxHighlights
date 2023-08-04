@@ -574,6 +574,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.elvis.groovy",
                 "keyword.operator.comparison.groovy",
                 "keyword.operator.groovy",
                 "keyword.other.import.groovy",
