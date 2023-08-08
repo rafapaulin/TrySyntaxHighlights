@@ -90,6 +90,7 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "punctuation.definition.separator.groovy",
                 "punctuation.definition.seperator.parameter.groovy",
                 "punctuation.definition.structure.begin.groovy",
                 "punctuation.definition.structure.end.groovy",
@@ -1153,6 +1154,8 @@
         {
             "name": "Support Functions",
             "scope": [
+                "storage.type.generic.groovy",
+                "storage.type.object.array.groovy",
                 "support.function.print.groovy",
                 "storage.type.groovy",
                 "support.function.builtin.terraform",
