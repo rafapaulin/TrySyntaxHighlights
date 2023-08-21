@@ -575,6 +575,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.find.groovy",
                 "keyword.control.exception.groovy",
                 "keyword.operator.elvis.groovy",
                 "keyword.operator.comparison.groovy",
