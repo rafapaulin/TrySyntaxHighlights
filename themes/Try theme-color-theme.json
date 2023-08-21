@@ -533,7 +533,8 @@
                 "punctuation.definition.template-expression.begin.ts"
             ],
             "settings": {
-                "foreground": "#FFD900"
+                "foreground": "#FFD900",
+                "fontStyle": ""
             }
         },
         {
