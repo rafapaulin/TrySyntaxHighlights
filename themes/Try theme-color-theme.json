@@ -1275,6 +1275,7 @@
         {
             "name": "Object Property Key",
             "scope": [
+                "meta.method-call.groovy constant.other.key.groovy",
                 "constant.other.key.groovy",
                 "meta.block.ts entity.name.label.ts",
                 "source.ts.embedded.html.vue meta.block.ts entity.name.label.ts",
