@@ -90,6 +90,7 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "meta.structure.groovy",
                 "punctuation.definition.separator.groovy",
                 "punctuation.definition.seperator.parameter.groovy",
                 "punctuation.definition.structure.begin.groovy",
