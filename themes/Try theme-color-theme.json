@@ -577,6 +577,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.in.groovy",
                 "keyword.operator.instanceof.groovy",
                 "keyword.operator.find.groovy",
                 "keyword.control.exception.groovy",
