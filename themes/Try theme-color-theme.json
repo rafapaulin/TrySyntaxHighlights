@@ -56,7 +56,8 @@
                 "comment.line.number-sign.env"
             ],
             "settings": {
-                "foreground": "#666666"
+                "foreground": "#666666",
+                "fontStyle": ""
             }
         },
         {
