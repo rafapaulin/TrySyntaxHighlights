@@ -926,6 +926,7 @@
         {
             "name": "Decorators, pseudos, this, super & parent Keywords",
             "scope": [
+                "storage.type.annotation.groovy",
                 "meta.method.return-type.java",
                 "meta.class.body.groovy variable.language.groovy",
 
