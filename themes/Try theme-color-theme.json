@@ -340,6 +340,7 @@
         {
             "name": "Inherited Class",
             "scope": [
+                "entity.other.inherited-class.groovy",
                 "entity.other.inherited-class.js",
 
                 "entity.other.inherited-class.ts",
@@ -1088,6 +1089,7 @@
         {
             "name": "Storage types",
             "scope": [
+                "storage.modifier.implements.groovy",
                 "storage.modifier.final.groovy",
                 "storage.modifier.static.groovy",
                 "storage.modifier.access-control.groovy",
