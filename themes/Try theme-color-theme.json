@@ -578,6 +578,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.arithmetic.groovy",
                 "keyword.operator.in.groovy",
                 "keyword.operator.instanceof.groovy",
                 "keyword.operator.find.groovy",
