@@ -1089,6 +1089,7 @@
         {
             "name": "Storage types",
             "scope": [
+                "storage.modifier.extends.groovy",
                 "storage.modifier.implements.groovy",
                 "storage.modifier.final.groovy",
                 "storage.modifier.static.groovy",
