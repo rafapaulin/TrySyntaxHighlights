@@ -1422,6 +1422,7 @@
         {
             "name": "Function Name",
             "scope": [
+                "meta.function-call.hcl",
                 "meta.definition.method.signature.java entity.name.function.java",
                 "meta.method-call.groovy",
                 "meta.selectionset.graphql variable.graphql",
