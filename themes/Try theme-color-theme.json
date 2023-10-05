@@ -579,6 +579,9 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.word.hcl",
+                "keyword.control.conditional.hcl",
+                "keyword.control.hcl",
                 "keyword.operator.hcl",
                 "keyword.operator.logical.hcl",
                 "keyword.operator.arithmetic.groovy",
@@ -1465,6 +1468,7 @@
         {
             "name": "function KWs",
             "scope": [
+                "storage.type.function.hcl",
                 "keyword.operator.closure.dart",
 
                 "storage.type.function.shell",
