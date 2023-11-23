@@ -15,6 +15,7 @@
         {
             "name": "Comment",
             "scope": [
+                "comment.line.double-slash.tsx",
                 "comment.line.double-slash.groovy",
                 "comment.line.number-sign.hcl",
 
@@ -91,6 +92,28 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "punctuation.separator.parameter.tsx",
+                "punctuation.destructuring.tsx",
+                "meta.enum.declaration.tsx",
+                "punctuation.definition.binding-pattern.array.tsx",
+                "punctuation.definition.typeparameters.begin.tsx",
+                "punctuation.definition.typeparameters.end.tsx",
+                "meta.brace.square.tsx",
+                "punctuation.accessor.tsx",
+                "punctuation.section.embedded.begin.tsx",
+                "punctuation.section.embedded.end.tsx",
+                "meta.tag.attributes.tsx keyword.operator.assignment.tsx",
+                "punctuation.definition.binding-pattern.object.tsx",
+                "punctuation.separator.comma.tsx",
+                "keyword.operator.type.annotation.tsx",
+                "punctuation.separator.key-value.tsx",
+                "meta.brace.round.tsx",
+                "punctuation.terminator.statement.tsx",
+                "punctuation.definition.block.tsx",
+                "punctuation.definition.parameters.begin.tsx",
+                "punctuation.definition.parameters.end.tsx",
+                "punctuation.definition.tag.begin.tsx",
+                "punctuation.definition.tag.end.tsx",
                 "meta.structure.groovy",
                 "punctuation.definition.separator.groovy",
                 "punctuation.definition.seperator.parameter.groovy",
@@ -355,6 +378,7 @@
         {
             "name": "Elements",
             "scope": [
+                "entity.name.tag.tsx",
                 "entity.name.tag.js",
 
                 "entity.name.tag.yaml",
@@ -395,6 +419,7 @@
         {
             "name": "DOM Attributes",
             "scope": [
+                "entity.other.attribute-name.tsx",
                 "keyword.control.loop.vue",
                 "entity.other.attribute-name.js",
                 "punctuation.attribute-shorthand.event.html.vue",
@@ -417,6 +442,9 @@
         {
             "name": "Strings",
             "scope": [
+                "string.template.tsx",
+                "string.quoted.single.tsx",
+                "string.quoted.double.tsx",
                 "string.quoted.single.multiline.groovy",
                 "string.quoted.double.multiline.groovy",
                 "string.quoted.single.groovy",
@@ -506,6 +534,8 @@
         {
             "name": "Regex & Interpolation",
             "scope": [
+                "punctuation.definition.template-expression.begin.tsx",
+                "punctuation.definition.template-expression.end.tsx",
                 "punctuation.definition.string.regexp.begin.groovy",
                 "string.regexp.groovy",
                 "source.groovy.embedded.source punctuation.section.embedded.groovy",
@@ -543,6 +573,9 @@
         {
             "name": "Reserved words",
             "scope": [
+                "constant.language.null.tsx",
+                "constant.language.boolean.true.tsx",
+                "constant.language.boolean.false.tsx",
                 "constant.language.groovy",
                 "constant.language.hcl",
 
@@ -579,6 +612,29 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.arithmetic.tsx",
+                "punctuation.definition.section.case-statement.tsx",
+                "keyword.control.switch.tsx",
+                "keyword.operator.expression.in.tsx",
+                "keyword.operator.optional.tsx",
+                "keyword.operator.ternary.tsx",
+                "keyword.operator.rest.tsx",
+                "keyword.operator.comparison.tsx",
+                "keyword.operator.relational.tsx",
+                "keyword.control.conditional.tsx",
+                "keyword.operator.spread.tsx",
+                "punctuation.accessor.optional.tsx",
+                "keyword.operator.logical.tsx",
+                "keyword.operator.type.tsx",
+                "keyword.operator.expression.import.tsx",
+                "keyword.operator.assignment.tsx",
+                "keyword.control.as.tsx",
+                "keyword.control.from.tsx",
+                "keyword.control.import.tsx",
+                "keyword.control.default.tsx",
+                "keyword.control.export.tsx",
+                "keyword.control.flow.tsx",
+
                 "keyword.operator.range.groovy",
                 "keyword.operator.safe-navigation.groovy",
                 "keyword.operator.word.hcl",
@@ -827,6 +883,8 @@
         {
             "name": "Primitives",
             "scope": [
+                "support.type.builtin.tsx",
+                "support.type.primitive.tsx",
                 "support.type.python",
 
                 "support.type.primitive.js",
@@ -844,6 +902,7 @@
         {
             "name": "Numbers",
             "scope": [
+                "constant.numeric.decimal.tsx",
                 "constant.numeric.groovy",
                 "constant.numeric.float.hcl",
                 "constant.numeric.integer.hcl",
@@ -884,6 +943,8 @@
         {
             "name": "Variables",
             "scope": [
+                "variable.other.object.tsx",
+                "variable.other.readwrite.tsx",
                 "meta.definition.variable.groovy meta.definition.variable.name.groovy",
                 "variable.language.groovy",
                 "variable.other.readwrite.terraform",
@@ -986,6 +1047,8 @@
         {
             "name": "Namespace & URLs",
             "scope": [
+                "meta.import.tsx string.quoted.double.tsx",
+                "meta.import.tsx string.quoted.single.tsx",
                 "storage.modifier.import.groovy",
                 "storage.modifier.package.groovy",
                 "meta.declaration.dart string.interpolated.single.dart",
@@ -1026,6 +1089,11 @@
         {
             "name": "Constants",
             "scope": [
+                "variable.other.enummember.tsx",
+                "variable.other.constant.object.tsx",
+                "variable.other.constant.tsx",
+                "variable.other.constant.property.tsx",
+
                 "constant.variable.groovy",
                 "constant.other.groovy",
 
@@ -1096,6 +1164,12 @@
         {
             "name": "Storage types",
             "scope": [
+                "storage.type.interface.tsx",
+                "storage.type.enum.tsx",
+                "storage.type.type.tsx",
+                "storage.type.tsx",
+                "keyword.control.type.tsx",
+                "storage.modifier.async.tsx",
                 "storage.modifier.extends.groovy",
                 "storage.modifier.implements.groovy",
                 "storage.modifier.final.groovy",
@@ -1292,6 +1366,11 @@
         {
             "name": "Object Property Key",
             "scope": [
+                "variable.other.object.property.tsx",
+                "variable.other.property.tsx",
+                "variable.object.property.tsx",
+                "meta.object-literal.key.tsx",
+
                 "meta.method-call.groovy constant.other.key.groovy",
                 "constant.other.key.groovy",
                 "meta.block.ts entity.name.label.ts",
@@ -1357,6 +1436,9 @@
         {
             "name": "Classes, Traits & Interfaces",
             "scope": [
+                "entity.name.type.interface.tsx",
+                "entity.name.type.enum.tsx",
+                "entity.name.type.tsx",
                 "entity.name.type.class.groovy",
                 "entity.name.type.enum.php",
                 "meta.enum.php meta.enum.body.php meta.function.php keyword.other.type.php",
@@ -1428,6 +1510,7 @@
         {
             "name": "Function Name",
             "scope": [
+                "entity.name.function.tsx",
                 "meta.function-call.hcl",
                 "meta.definition.method.signature.java entity.name.function.java",
                 "meta.method-call.groovy",
@@ -1470,6 +1553,8 @@
         {
             "name": "function KWs",
             "scope": [
+                "storage.type.function.arrow.tsx",
+                "storage.type.function.tsx",
                 "storage.type.function.hcl",
                 "keyword.operator.closure.dart",
 
@@ -1494,6 +1579,7 @@
         {
             "name": "Parameters",
             "scope": [
+                "variable.parameter.tsx",
                 "variable.parameter.method.groovy",
                 "string.unquoted.argument.shell",
                 "variable.other.enummember.hcl",
@@ -1524,6 +1610,9 @@
         {
             "name": "Module Alias",
             "scope": [
+                "entity.name.type.module.tsx",
+                "entity.name.type.alias.tsx",
+                "variable.other.readwrite.alias.tsx",
                 "entity.name.type.module.ts",
                 "entity.name.type.alias.ts",
                 "variable.other.readwrite.alias.ts",
