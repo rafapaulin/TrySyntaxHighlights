@@ -612,6 +612,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.expression.typeof.tsx",
                 "keyword.operator.arithmetic.tsx",
                 "punctuation.definition.section.case-statement.tsx",
                 "keyword.control.switch.tsx",
@@ -635,6 +636,7 @@
                 "keyword.control.export.tsx",
                 "keyword.control.flow.tsx",
 
+                "keyword.operator.match.groovy",
                 "keyword.operator.range.groovy",
                 "keyword.operator.safe-navigation.groovy",
                 "keyword.operator.word.hcl",
