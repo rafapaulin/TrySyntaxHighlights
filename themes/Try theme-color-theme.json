@@ -1097,6 +1097,7 @@
                 "variable.other.constant.tsx",
                 "variable.other.constant.property.tsx",
 
+                "constant.enum.name.groovy",
                 "constant.variable.groovy",
                 "constant.other.groovy",
 
