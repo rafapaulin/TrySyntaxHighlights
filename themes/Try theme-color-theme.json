@@ -636,6 +636,7 @@
                 "keyword.control.export.tsx",
                 "keyword.control.flow.tsx",
 
+                "storage.modifier.other.groovy",
                 "keyword.operator.match.groovy",
                 "keyword.operator.range.groovy",
                 "keyword.operator.safe-navigation.groovy",
