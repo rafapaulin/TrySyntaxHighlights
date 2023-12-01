@@ -612,6 +612,8 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.expression.of.tsx",
+                "keyword.control.loop.tsx",
                 "keyword.operator.expression.typeof.tsx",
                 "keyword.operator.arithmetic.tsx",
                 "punctuation.definition.section.case-statement.tsx",
