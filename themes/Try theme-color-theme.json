@@ -1255,6 +1255,7 @@
         {
             "name": "Support Functions",
             "scope": [
+                "support.variable.property.tsx",
                 "storage.type.generic.groovy",
                 "storage.type.object.array.groovy",
                 "support.function.print.groovy",
