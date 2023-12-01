@@ -612,6 +612,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.expression.keyof.tsx",
                 "keyword.operator.expression.of.tsx",
                 "keyword.control.loop.tsx",
                 "keyword.operator.expression.typeof.tsx",
