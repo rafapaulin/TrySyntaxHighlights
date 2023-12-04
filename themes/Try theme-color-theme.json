@@ -721,6 +721,7 @@
 
                 "variable.language.documentroot.xml",
 
+                "keyword.operator.expression.import.ts",
                 "keyword.control.as.ts",
                 "keyword.control.flow.ts",
                 "keyword.operator.new.ts",
