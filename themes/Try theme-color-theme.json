@@ -573,6 +573,7 @@
         {
             "name": "Reserved words",
             "scope": [
+                "constant.language.undefined.tsx",
                 "constant.language.null.tsx",
                 "constant.language.boolean.true.tsx",
                 "constant.language.boolean.false.tsx",
@@ -612,6 +613,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.new.tsx",
                 "keyword.operator.expression.keyof.tsx",
                 "keyword.operator.expression.of.tsx",
                 "keyword.control.loop.tsx",
@@ -1375,6 +1377,7 @@
         {
             "name": "Object Property Key",
             "scope": [
+                "variable.other.constant.object.property.tsx",
                 "variable.other.object.property.tsx",
                 "variable.other.property.tsx",
                 "variable.object.property.tsx",
