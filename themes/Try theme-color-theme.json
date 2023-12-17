@@ -1176,6 +1176,7 @@
         {
             "name": "Storage types",
             "scope": [
+                "storage.modifier.chomping-indicator.yaml",
                 "storage.type.interface.tsx",
                 "storage.type.enum.tsx",
                 "storage.type.type.tsx",
