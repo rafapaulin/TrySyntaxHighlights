@@ -1310,6 +1310,7 @@
                 "support.function.php_apache.php",
                 "support.function.streamsfuncs.php",
                 "support.function.construct.output.php",
+                "meta.attribute.php support.attribute.php",
                 
                 "support.function.construct.end.blade",
                 "support.function.construct.begin.blade",
@@ -1609,6 +1610,7 @@
 
                 "variable.parameter.function.language.python",
 
+                "meta.attribute.php entity.name.variable.parameter.php",
                 "meta.function.parameters.php punctuation.definition.variable.php",
                 "meta.function.parameters.php variable.other.php",
                 "variable.parameter.php",
