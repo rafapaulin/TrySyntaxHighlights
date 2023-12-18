@@ -92,6 +92,8 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "meta.attribute.php punctuation.separator.colon.php",
+                "meta.attribute.php punctuation.definition.arguments.begin.bracket.round.php",
                 "punctuation.separator.parameter.tsx",
                 "punctuation.destructuring.tsx",
                 "meta.enum.declaration.tsx",
@@ -1007,6 +1009,7 @@
         {
             "name": "Decorators, pseudos, this, super & parent Keywords",
             "scope": [
+                "meta.attribute.php",
                 "variable.other.interpolated.groovy",
                 "storage.type.annotation.groovy",
                 "meta.method.return-type.java",
