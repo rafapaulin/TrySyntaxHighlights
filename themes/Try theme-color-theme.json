@@ -422,7 +422,6 @@
             "name": "DOM Attributes",
             "scope": [
                 "entity.other.attribute-name.tsx",
-                "keyword.control.loop.vue",
                 "entity.other.attribute-name.js",
                 "punctuation.attribute-shorthand.event.html.vue",
 
@@ -615,6 +614,8 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.control.loop.vue",
+                "keyword.control.conditional.vue",
                 "support.variable.property.importmeta.ts",
                 "support.variable.property.importmeta.tsx",
                 "keyword.operator.new.tsx",
