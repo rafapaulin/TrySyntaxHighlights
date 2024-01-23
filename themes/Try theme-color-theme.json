@@ -443,6 +443,7 @@
         {
             "name": "Strings",
             "scope": [
+                "string.unquoted.plain.in.yaml",
                 "string.template.tsx",
                 "string.quoted.single.tsx",
                 "string.quoted.double.tsx",
