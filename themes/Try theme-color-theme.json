@@ -615,6 +615,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.control.elif.shell",
                 "keyword.control.satisfies.ts",
                 "keyword.control.loop.vue",
                 "keyword.control.conditional.vue",
