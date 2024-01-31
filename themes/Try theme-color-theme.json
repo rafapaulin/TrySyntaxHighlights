@@ -92,6 +92,7 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "meta.embedded.block.github-actions-expression",
                 "meta.attribute.php punctuation.separator.colon.php",
                 "meta.attribute.php punctuation.definition.arguments.begin.bracket.round.php",
                 "punctuation.separator.parameter.tsx",
@@ -443,6 +444,7 @@
         {
             "name": "Strings",
             "scope": [
+                "string.quoted.single.github-actions-expression",
                 "string.unquoted.plain.in.yaml",
                 "string.template.tsx",
                 "string.quoted.single.tsx",
@@ -615,6 +617,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.control.flow.block-scalar.literal.yaml",
                 "keyword.control.elif.shell",
                 "keyword.control.satisfies.ts",
                 "keyword.control.loop.vue",
@@ -960,6 +963,7 @@
         {
             "name": "Variables",
             "scope": [
+                "variable.other.read.github-actions-expression",
                 "variable.other.object.tsx",
                 "variable.other.readwrite.tsx",
                 "meta.definition.variable.groovy meta.definition.variable.name.groovy",
@@ -1269,6 +1273,7 @@
         {
             "name": "Support Functions",
             "scope": [
+                "support.function.github-actions-expression",
                 "support.class.promise.ts",
                 "support.variable.property.tsx",
                 "storage.type.generic.groovy",
