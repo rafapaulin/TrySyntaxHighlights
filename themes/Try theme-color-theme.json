@@ -617,6 +617,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.control.do.shell",
                 "keyword.control.flow.block-scalar.literal.yaml",
                 "keyword.control.elif.shell",
                 "keyword.control.satisfies.ts",
