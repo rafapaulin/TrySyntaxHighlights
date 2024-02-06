@@ -1610,6 +1610,7 @@
         {
             "name": "Parameters",
             "scope": [
+                "string.unquoted.argument",
                 "variable.parameter.tsx",
                 "variable.parameter.method.groovy",
                 "string.unquoted.argument.shell",
