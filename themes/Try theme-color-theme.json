@@ -538,6 +538,7 @@
         {
             "name": "Regex & Interpolation",
             "scope": [
+                "punctuation.definition.variable.shell",
                 "punctuation.definition.template-expression.begin.tsx",
                 "punctuation.definition.template-expression.end.tsx",
                 "punctuation.definition.string.regexp.begin.groovy",
