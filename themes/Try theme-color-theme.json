@@ -618,6 +618,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.control.trycatch.tsx",
                 "keyword.control.do.shell",
                 "keyword.control.flow.block-scalar.literal.yaml",
                 "keyword.control.elif.shell",
