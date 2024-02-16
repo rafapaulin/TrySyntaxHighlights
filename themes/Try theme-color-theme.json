@@ -15,6 +15,7 @@
         {
             "name": "Comment",
             "scope": [
+                "comment.line.double-slash.go",
                 "comment.line.double-slash.tsx",
                 "comment.line.double-slash.groovy",
                 "comment.line.number-sign.hcl",
@@ -92,6 +93,16 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "punctuation.other.comma.go",
+                "punctuation.other.period.go",
+                "punctuation.definition.begin.bracket.round.go",
+                "punctuation.definition.end.bracket.round.go",
+                "punctuation.definition.begin.bracket.square.go",
+                "punctuation.definition.end.bracket.square.go",
+                "punctuation.definition.begin.bracket.curly.go",
+                "punctuation.definition.end.bracket.curly.go",
+                "punctuation.definition.imports.begin.bracket.round.go",
+                "punctuation.definition.imports.end.bracket.round.go",
                 "meta.embedded.block.github-actions-expression",
                 "meta.attribute.php punctuation.separator.colon.php",
                 "meta.attribute.php punctuation.definition.arguments.begin.bracket.round.php",
@@ -444,6 +455,9 @@
         {
             "name": "Strings",
             "scope": [
+                "string.quoted.double.go",
+                "punctuation.definition.string.end.go",
+                "punctuation.definition.string.begin.go",
                 "string.quoted.single.github-actions-expression",
                 "string.unquoted.plain.in.yaml",
                 "string.template.tsx",
@@ -538,6 +552,8 @@
         {
             "name": "Regex & Interpolation",
             "scope": [
+                "string.quoted.raw.go punctuation.definition.string.begin.go",
+                "string.quoted.raw.go",
                 "punctuation.definition.variable.shell",
                 "punctuation.definition.template-expression.begin.tsx",
                 "punctuation.definition.template-expression.end.tsx",
@@ -578,6 +594,7 @@
         {
             "name": "Reserved words",
             "scope": [
+                "constant.language.go",
                 "constant.language.undefined.tsx",
                 "constant.language.null.tsx",
                 "constant.language.boolean.true.tsx",
@@ -618,6 +635,12 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.struct.go",
+                "keyword.operator.address.go",
+                "keyword.control.go",
+                "keyword.operator.assignment.go",
+                "keyword.operator.comparison.go",
+                "keyword.control.import.go",
                 "keyword.control.trycatch.tsx",
                 "keyword.control.do.shell",
                 "keyword.control.flow.block-scalar.literal.yaml",
@@ -925,6 +948,7 @@
         {
             "name": "Numbers",
             "scope": [
+                "constant.numeric.decimal.go",
                 "constant.numeric.decimal.tsx",
                 "constant.numeric.groovy",
                 "constant.numeric.float.hcl",
@@ -966,6 +990,8 @@
         {
             "name": "Variables",
             "scope": [
+                "variable.other.go",
+                "variable.other.assignment.go",
                 "variable.other.read.github-actions-expression",
                 "variable.other.object.tsx",
                 "variable.other.readwrite.tsx",
@@ -1073,6 +1099,7 @@
         {
             "name": "Namespace & URLs",
             "scope": [
+                "entity.name.import.go",
                 "meta.import.tsx string.quoted.double.tsx",
                 "meta.import.tsx string.quoted.single.tsx",
                 "storage.modifier.import.groovy",
@@ -1191,6 +1218,8 @@
         {
             "name": "Storage types",
             "scope": [
+                "keyword.var.go",
+                "keyword.package.go",
                 "storage.modifier.chomping-indicator.yaml",
                 "storage.type.interface.tsx",
                 "storage.type.enum.tsx",
@@ -1276,6 +1305,10 @@
         {
             "name": "Support Functions",
             "scope": [
+                "storage.type.error.go",
+                "storage.type.string.go",
+                "storage.type.byte.go",
+                "entity.name.function.support.go",
                 "support.function.github-actions-expression",
                 "support.class.promise.ts",
                 "support.variable.property.tsx",
@@ -1398,6 +1431,7 @@
         {
             "name": "Object Property Key",
             "scope": [
+                "variable.other.property.go",
                 "variable.other.constant.object.property.tsx",
                 "variable.other.object.property.tsx",
                 "variable.other.property.tsx",
@@ -1543,6 +1577,7 @@
         {
             "name": "Function Name",
             "scope": [
+                "entity.name.function.go",
                 "entity.name.function.tsx",
                 "meta.function-call.hcl",
                 "meta.definition.method.signature.java entity.name.function.java",
@@ -1586,6 +1621,7 @@
         {
             "name": "function KWs",
             "scope": [
+                "keyword.function.go",
                 "storage.type.function.arrow.tsx",
                 "storage.type.function.tsx",
                 "storage.type.function.hcl",
@@ -1645,6 +1681,8 @@
         {
             "name": "Module Alias",
             "scope": [
+                "entity.name.type.package.go",
+                "entity.name.type.go",
                 "entity.name.type.module.tsx",
                 "entity.name.type.alias.tsx",
                 "variable.other.readwrite.alias.tsx",
