@@ -635,6 +635,8 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.logical.go",
+                "keyword.go.mod",
                 "keyword.struct.go",
                 "keyword.operator.address.go",
                 "keyword.control.go",
@@ -1099,6 +1101,7 @@
         {
             "name": "Namespace & URLs",
             "scope": [
+                "string.unquoted.go.mod",
                 "entity.name.import.go",
                 "meta.import.tsx string.quoted.double.tsx",
                 "meta.import.tsx string.quoted.single.tsx",
@@ -1218,6 +1221,7 @@
         {
             "name": "Storage types",
             "scope": [
+                "keyword.type.go",
                 "keyword.var.go",
                 "keyword.package.go",
                 "storage.modifier.chomping-indicator.yaml",
@@ -1648,6 +1652,7 @@
         {
             "name": "Parameters",
             "scope": [
+                "variable.parameter.go",
                 "string.unquoted.argument",
                 "variable.parameter.tsx",
                 "variable.parameter.method.groovy",
