@@ -93,6 +93,7 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "punctuation.other.colon.go",
                 "punctuation.other.comma.go",
                 "punctuation.other.period.go",
                 "punctuation.definition.begin.bracket.round.go",
@@ -635,6 +636,8 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.assignment.compound.shell",
+                "keyword.operator.arithmetic.go",
                 "keyword.operator.logical.go",
                 "keyword.go.mod",
                 "keyword.struct.go",
@@ -1435,6 +1438,7 @@
         {
             "name": "Object Property Key",
             "scope": [
+                "variable.other.property.field.go",
                 "variable.other.property.go",
                 "variable.other.constant.object.property.tsx",
                 "variable.other.object.property.tsx",
@@ -1581,6 +1585,7 @@
         {
             "name": "Function Name",
             "scope": [
+                "entity.name.function.call.shell entity.name.command.shell support.function.builtin.shell",
                 "entity.name.function.go",
                 "entity.name.function.tsx",
                 "meta.function-call.hcl",
