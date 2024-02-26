@@ -636,6 +636,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.interface.go",
                 "keyword.operator.assignment.compound.shell",
                 "keyword.operator.arithmetic.go",
                 "keyword.operator.logical.go",
