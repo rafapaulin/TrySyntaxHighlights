@@ -1225,6 +1225,8 @@
         {
             "name": "Storage types",
             "scope": [
+                "keyword.map.go",
+                "keyword.const.go",
                 "keyword.type.go",
                 "keyword.var.go",
                 "keyword.package.go",
@@ -1313,9 +1315,11 @@
         {
             "name": "Support Functions",
             "scope": [
+                "entity.name.function.support.builtin.go",
                 "storage.type.error.go",
                 "storage.type.string.go",
                 "storage.type.byte.go",
+                "storage.type.numeric.go",
                 "entity.name.function.support.go",
                 "support.function.github-actions-expression",
                 "support.class.promise.ts",
