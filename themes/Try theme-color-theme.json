@@ -1316,6 +1316,7 @@
         {
             "name": "Support Functions",
             "scope": [
+                "storage.type.boolean.go",
                 "entity.name.function.support.builtin.go",
                 "storage.type.error.go",
                 "storage.type.string.go",
