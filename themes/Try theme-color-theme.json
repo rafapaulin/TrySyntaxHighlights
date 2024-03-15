@@ -1698,6 +1698,7 @@
         {
             "name": "Module Alias",
             "scope": [
+                "entity.name.type.any.go",
                 "variable.other.import.go",
                 "entity.name.type.package.go",
                 "entity.name.type.go",
