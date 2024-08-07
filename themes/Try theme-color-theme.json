@@ -1292,6 +1292,7 @@
 
                 "storage.type.class.php",
                 "storage.type.interface.php",
+                "storage.modifier.final.php",
                 "storage.modifier.php",
                 "storage.type.trait.php"
             ],
