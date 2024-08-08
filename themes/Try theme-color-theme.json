@@ -93,6 +93,9 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "punctuation.operation.graphql",
+                "punctuation.graphql",
+
                 "punctuation.other.colon.go",
                 "punctuation.other.comma.go",
                 "punctuation.other.period.go",
@@ -160,7 +163,6 @@
                 "punctuation.section.block.end.hcl",
 
                 "punctuation.definition.binding-pattern.array.js",
-                "punctuation.operation.graphql",
                 "meta.brace.square.graphql",
                 "string.quoted.double.php meta.method-call.php punctuation.definition.arguments.begin.bracket.round.php",
                 "string.quoted.double.php meta.method-call.php punctuation.definition.arguments.end.bracket.round.php",
@@ -719,7 +721,6 @@
                 "keyword.operator.spread.graphql",
                 "keyword.on.graphql",
                 "punctuation.assignment.graphql",
-                "punctuation.operation.graphql",
                 "punctuation.or.graphql",
                 "keyword.operator.expression.keyof.ts",
 
