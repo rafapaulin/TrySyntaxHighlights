@@ -605,6 +605,8 @@
                 "constant.language.groovy",
                 "constant.language.hcl",
 
+                "constant.language.boolean.graphql",
+
                 "constant.language.dart",
 
                 "constant.language.true.shell",
@@ -804,6 +806,7 @@
                 "keyword.control.new.ts",
 
                 "keyword.control.php",
+                "keyword.operator.spread.php",
                 "keyword.other.new.php",
                 "keyword.other.use.php",
                 "keyword.control.if.php",
@@ -986,7 +989,8 @@
                 "constant.numeric.php",
                 "constant.numeric.decimal.php",
                 "constant.numeric.integer.decimal.php",
-
+                "string.quoted.double.php constant.numeric.index.php",
+                
                 "constant.numeric.css",
                 "constant.numeric.sass"
             ],
@@ -1069,13 +1073,14 @@
                 "entity.name.function.decorator.python",
                 "variable.language.special.self.python",
 
-                "keyword.other.type.php",
+                "meta.function.parameter.typehinted.php keyword.other.type.php",
+                "meta.function.parameter.typehinted.php support.class.php",
+                "meta.function.php keyword.other.type.php",
+
                 "storage.type.php",
                 "keyword.other.class.php",
                 "variable.language.this.php",
                 "variable.language.this.php punctuation.definition.variable.php",
-                "meta.trait.php meta.trait.body.php meta.function.php keyword.other.type.php",
-                "meta.class.php meta.class.body.php meta.function.php keyword.other.type.php",
                 "meta.class.php meta.class.body.php meta.function.php support.class.php",
 
                 "variable.language.super.js",
@@ -1264,6 +1269,7 @@
                 "keyword.type.graphql",
                 "keyword.enum.graphql",
                 "keyword.input.graphql",
+                "keyword.interface.graphql",
 
                 "storage.modifier.dart",
                 "keyword.declaration.dart",
