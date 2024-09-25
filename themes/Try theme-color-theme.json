@@ -1040,6 +1040,8 @@
                 "variable.other.class.php",
                 "punctuation.definition.variable.php",
 
+                "comment.block.documentation.phpdoc.php keyword.other.phpdoc.php",
+
                 "variable.other.object.js",
                 "variable.other.readwrite.js",
                 "variable.other.readwrite.js",
@@ -1077,7 +1079,9 @@
                 "meta.function.parameter.typehinted.php support.class.php",
                 "meta.function.php keyword.other.type.php",
 
+                "comment.block.documentation.phpdoc.php keyword.other.type.php",
                 "storage.type.php",
+                "keyword.other.type.php",
                 "keyword.other.class.php",
                 "variable.language.this.php",
                 "variable.language.this.php punctuation.definition.variable.php",
@@ -1382,6 +1386,7 @@
                 "support.function.streamsfuncs.php",
                 "support.function.construct.output.php",
                 "meta.attribute.php support.attribute.php",
+                "meta.method-call.static.php entity.name.variable.parameter.php",
                 
                 "support.function.construct.end.blade",
                 "support.function.construct.begin.blade",
@@ -1605,7 +1610,7 @@
                 "meta.function-call.hcl",
                 "meta.definition.method.signature.java entity.name.function.java",
                 "meta.method-call.groovy",
-                "meta.selectionset.graphql variable.graphql",
+                "meta.selectionset.graphql",
                 "entity.name.function.graphql",
             
                 "entity.name.function.dart",
