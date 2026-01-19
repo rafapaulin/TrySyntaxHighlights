@@ -15,6 +15,7 @@
         {
             "name": "Comment",
             "scope": [
+                "comment.prisma",
                 "comment.line.double-slash.go",
                 "comment.line.double-slash.tsx",
                 "comment.line.double-slash.groovy",
@@ -78,6 +79,13 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "source.prisma.attribute.with_arguments unnamed",
+                "punctuation.definition.separator.key-value.prisma",
+                "source.prisma.attribute.with_arguments",
+
+                "punctuation.definition.tag.prisma",
+	            "source.prisma.array",
+	            "keyword.operator.list_type.prisma",
                 "punctuation.operation.graphql",
                 "punctuation.graphql",
                 "punctuation.other.colon.go",
@@ -402,6 +410,12 @@
         {
             "name": "Strings",
             "scope": [
+                "string.quoted.double.start.prisma",
+                "string.quoted.double.end.prisma",
+                "string.quoted.single.start.prisma",
+                "string.quoted.single.end.prisma",
+                "string.quoted.single.prisma",
+	            "string.quoted.double.prisma",
                 "string.quoted.double.go",
                 "punctuation.definition.string.end.go",
                 "punctuation.definition.string.begin.go",
@@ -519,6 +533,7 @@
         {
             "name": "Reserved words",
             "scope": [
+                "constant.language.boolean.prisma",
                 "constant.language.go",
                 "constant.language.undefined.tsx",
                 "constant.language.null.tsx",
@@ -553,6 +568,16 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "source.prisma.embedded.source keyword.operator.terraform",
+
+	            "keyword.operator.optional_type.prisma",
+	            "keyword.operator.expression.void.ts",
+	            "keyword.control.if.shell",
+	            "keyword.control.fi.shell",
+	            "keyword.operator.increment.go",
+	            "keyword.operator.decrement.go",
+	            "meta.function.parameter.typehinted.php punctuation.separator.delimiter.php",
+                "punctuation.accessor.optional.js",
                 "keyword.interface.go",
                 "keyword.operator.assignment.compound.shell",
                 "keyword.operator.arithmetic.go",
@@ -835,6 +860,7 @@
         {
             "name": "Primitives",
             "scope": [
+                "support.type.primitive.prisma",
                 "support.type.builtin.tsx",
                 "support.type.primitive.tsx",
                 "support.type.python",
@@ -852,6 +878,7 @@
         {
             "name": "Numbers",
             "scope": [
+                "constant.numeric.prisma",
                 "constant.numeric.decimal.go",
                 "constant.numeric.decimal.tsx",
                 "constant.numeric.groovy",
@@ -886,6 +913,11 @@
         {
             "name": "Variables",
             "scope": [
+                "support.constant.constant.prisma",
+                "variable.other.assignment.prisma",
+                "entity.name.type.config.prisma",
+                "meta.selectionset.graphql meta.arguments.graphql variable.graphql",
+                "meta.arguments.graphql variable.graphql",
                 "variable.other.go",
                 "variable.other.assignment.go",
                 "variable.other.read.github-actions-expression",
@@ -895,8 +927,7 @@
                 "variable.language.groovy",
                 "variable.other.readwrite.terraform",
                 "variable.other.readwrite.hcl",
-                "source.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql",
-                "meta.arguments.graphql meta.objectvalues.graphql variable.graphql",
+
                 "variable.parameter.dart",
                 "variable.other.loop.shell",
                 "variable.other.normal.shell",
@@ -934,6 +965,7 @@
         {
             "name": "Decorators, pseudos, this, super & parent Keywords",
             "scope": [
+                "entity.name.function.attribute.prisma",
                 "meta.attribute.php",
                 "variable.other.interpolated.groovy",
                 "storage.type.annotation.groovy",
@@ -1019,6 +1051,8 @@
         {
             "name": "Constants",
             "scope": [
+                "constant.language.null.go",
+	            "constant.language.boolean.go",
                 "variable.other.constant.object.property.ts",
                 "variable.other.enummember.tsx",
                 "variable.other.constant.object.tsx",
@@ -1090,6 +1124,10 @@
         {
             "name": "Storage types",
             "scope": [
+                "storage.type.model.prisma",
+	            "storage.type.const.php",
+	            "storage.type.config.prisma",
+	            "storage.type.enum.prisma",
                 "keyword.map.go",
                 "keyword.const.go",
                 "keyword.type.go",
@@ -1173,6 +1211,7 @@
         {
             "name": "Support Functions",
             "scope": [
+                "support.function.functional.prisma",
                 "storage.type.boolean.go",
                 "entity.name.function.support.builtin.go",
                 "storage.type.error.go",
@@ -1295,6 +1334,7 @@
         {
             "name": "Object Property Key",
             "scope": [
+                "meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
                 "variable.other.property.field.go",
                 "variable.other.property.go",
                 "variable.other.constant.object.property.tsx",
@@ -1317,8 +1357,6 @@
                 "meta.parameter.object-binding-pattern.js string.quoted.single.js",
                 "meta.parameter.object-binding-pattern.js string.quoted.double.js",
                 "meta.selectionset.graphql meta.selectionset.graphql string.unquoted.alias.graphql",
-                "meta.selectionset.graphql meta.selectionset.graphql variable.graphql",
-                "meta.type.object.graphql variable.graphql",
                 "meta.property.object.js",
                 "string.unquoted.label.js",
                 "variable.other.property.js",
@@ -1358,6 +1396,9 @@
         {
             "name": "Classes, Traits & Interfaces",
             "scope": [
+                "variable.language.relations.prisma",
+                "entity.name.type.enum.prisma",
+                "entity.name.type.model.prisma",
                 "entity.name.type.interface.tsx",
                 "entity.name.type.enum.tsx",
                 "entity.name.type.tsx",
@@ -1429,7 +1470,8 @@
                 "meta.function-call.hcl",
                 "meta.definition.method.signature.java entity.name.function.java",
                 "meta.method-call.groovy",
-                "meta.selectionset.graphql",
+
+                "meta.selectionset.graphql variable.graphql",
                 "entity.name.function.graphql",
                 "entity.name.function.dart",
                 "entity.name.function.shell",
@@ -1483,6 +1525,8 @@
         {
             "name": "Parameters",
             "scope": [
+	            "meta.class.php meta.method-call.php entity.name.variable.parameter.php",
+                "variable.parameter.key.prisma",
                 "variable.parameter.go",
                 "string.unquoted.argument",
                 "variable.parameter.tsx",
@@ -1490,7 +1534,6 @@
                 "string.unquoted.argument.shell",
                 "variable.other.enummember.hcl",
                 "meta.arguments.graphql meta.objectvalues.graphql constant.object.key.graphql string.unquoted.graphql",
-                "meta.selectionset.graphql meta.arguments.graphql variable.graphql",
                 "variable.parameter.graphql",
                 "string.unquoted.argument.shell constant.other.option.shell",
                 "string.unquoted.argument.shell constant.other.option.dash.shell",
