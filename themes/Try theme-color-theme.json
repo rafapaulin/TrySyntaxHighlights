@@ -1268,7 +1268,6 @@
                 "support.function.streamsfuncs.php",
                 "support.function.construct.output.php",
                 "meta.attribute.php support.attribute.php",
-                "meta.method-call.static.php entity.name.variable.parameter.php",
                 "support.function.construct.end.blade",
                 "support.function.construct.begin.blade",
                 "support.constant.ts",
@@ -1526,6 +1525,7 @@
             "name": "Parameters",
             "scope": [
 	            "meta.class.php meta.method-call.php entity.name.variable.parameter.php",
+                "meta.class.php meta.method-call.static.php entity.name.variable.parameter.php",
                 "variable.parameter.key.prisma",
                 "variable.parameter.go",
                 "string.unquoted.argument",
