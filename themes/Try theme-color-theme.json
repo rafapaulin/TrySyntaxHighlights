@@ -569,7 +569,6 @@
             "name": "Operators & Keywords",
             "scope": [
                 "source.prisma.embedded.source keyword.operator.terraform",
-                "punctuation.separator.delimiter.php",
 	            "keyword.operator.optional_type.prisma",
 	            "keyword.operator.expression.void.ts",
 	            "keyword.control.if.shell",
