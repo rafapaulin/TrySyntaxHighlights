@@ -97,13 +97,74 @@
             }
         },
         {
-            "name": "MD Table",
+            "name": "MD bold",
             "scope": [
-                "punctuation.definition.table.markdown",
-                "punctuation.separator.table.markdown",
+                "markup.bold.markdown"
             ],
             "settings": {
-                "foreground": "#ca91ff"
+                "fontStyle": " bold",
+            }
+        },
+        {
+            "name": "MD Italic",
+            "scope": [
+                "markup.italic.markdown"
+            ],
+            "settings": {
+                "fontStyle": " italic",
+            }
+        },
+        {
+            "name": "MD Strikethrough",
+            "scope": [
+                "markup.strikethrough.markdown"
+            ],
+            "settings": {
+                "fontStyle": "strikethrough",
+            }
+        },
+        {
+            "name": "MD bold italic",
+            "scope": [
+                "markup.italic.markdown markup.bold.markdown",
+                "markup.bold.markdown markup.italic.markdown ",
+            ],
+            "settings": {
+                "fontStyle": "italic bold",
+            }
+        },
+        {
+            "name": "MD Strikethrough Bold",
+            "scope": [
+                "markup.bold.markdown markup.strikethrough.markdown",
+                "markup.strikethrough.markdown markup.bold.markdown",
+            ],
+            "settings": {
+                "fontStyle": "strikethrough bold",
+            }
+        },
+        {
+            "name": "MD Strikethrough Italic",
+            "scope": [
+                "markup.italic.markdown markup.strikethrough.markdown",
+                "markup.strikethrough.markdown markup.italic.markdown",
+            ],
+            "settings": {
+                "fontStyle": "strikethrough italic",
+            }
+        },
+        {
+            "name": "MD Strikethrough Bold Italic",
+            "scope": [
+                "markup.strikethrough.markdown markup.bold.markdown markup.italic.markdown",
+                "markup.strikethrough.markdown markup.italic.markdown markup.bold.markdown",
+                "markup.italic.markdown markup.bold.markdown markup.strikethrough.markdown",
+                "markup.italic.markdown markup.strikethrough.markdown markup.bold.markdown",
+                "markup.bold.markdown markup.italic.markdown markup.strikethrough.markdown",
+                "markup.bold.markdown markup.strikethrough.markdown markup.italic.markdown",
+            ],
+            "settings": {
+                "fontStyle": "strikethrough bold italic",
             }
         },
         {
