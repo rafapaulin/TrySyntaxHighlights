@@ -630,6 +630,7 @@
         {
             "name": "Operators & Keywords",
             "scope": [
+                "keyword.operator.as.php",
                 "source.prisma.embedded.source keyword.operator.terraform",
                 "keyword.operator.optional_type.prisma",
                 "keyword.operator.expression.void.ts",
