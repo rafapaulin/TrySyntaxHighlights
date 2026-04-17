@@ -49,6 +49,64 @@
             }
         },
         {
+            "name": "MD Headings",
+            "scope": [
+                "markup.heading.markdown"
+            ],
+            "settings": {
+                "fontStyle": " bold",
+                "foreground": "#93a7ff"
+            }
+        },
+        {
+            "name": "MD Link",
+            "scope": [
+                "meta.link.inline.markdown"
+            ],
+            "settings": {
+                "foreground": "#75efff"
+            }
+        },
+        {
+            "name": "MD Link url",
+            "scope": [
+                "markup.underline.link.markdown"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+            }
+        },
+        {
+            "name": "MD Lists",
+            "scope": [
+                "punctuation.definition.list.begin.markdown",
+                "meta.link.reference.markdown string.other.link.title.markdown",
+            ],
+            "settings": {
+                "foreground": "#ffac4d"
+            }
+        },
+        {
+            "name": "MD Table",
+            "scope": [
+                "punctuation.definition.table.markdown",
+                "punctuation.separator.table.markdown",
+            ],
+            "settings": {
+                "foreground": "#ca91ff"
+            }
+        },
+        {
+            "name": "MD Table",
+            "scope": [
+                "punctuation.definition.table.markdown",
+                "punctuation.separator.table.markdown",
+            ],
+            "settings": {
+                "foreground": "#ca91ff"
+            }
+        },
+        {
             "name": "Embbebed SQL",
             "scope": [
                 "source.groovy.embedded.source",
@@ -79,13 +137,16 @@
         {
             "name": "Def, Punct, Sep, etc.",
             "scope": [
+                "markup.fenced_code.block.markdown",
+                "meta.link.inline.markdown punctuation.definition.link.title.begin.markdown",
+                "meta.link.inline.markdown punctuation.definition.link.title.end.markdown",
+                "meta.link.inline.markdown punctuation.definition.metadata.markdown",
                 "source.prisma.attribute.with_arguments unnamed",
                 "punctuation.definition.separator.key-value.prisma",
                 "source.prisma.attribute.with_arguments",
-
                 "punctuation.definition.tag.prisma",
-	            "source.prisma.array",
-	            "keyword.operator.list_type.prisma",
+                "source.prisma.array",
+                "keyword.operator.list_type.prisma",
                 "punctuation.operation.graphql",
                 "punctuation.graphql",
                 "punctuation.other.colon.go",
@@ -291,6 +352,7 @@
         {
             "name": "Basic Text",
             "scope": [
+                "text.html.markdown",
                 "source.shell",
                 "text.html.basic",
                 "text.html.twig",
@@ -415,7 +477,7 @@
                 "string.quoted.single.start.prisma",
                 "string.quoted.single.end.prisma",
                 "string.quoted.single.prisma",
-	            "string.quoted.double.prisma",
+                "string.quoted.double.prisma",
                 "string.quoted.double.go",
                 "punctuation.definition.string.end.go",
                 "punctuation.definition.string.begin.go",
@@ -569,13 +631,13 @@
             "name": "Operators & Keywords",
             "scope": [
                 "source.prisma.embedded.source keyword.operator.terraform",
-	            "keyword.operator.optional_type.prisma",
-	            "keyword.operator.expression.void.ts",
-	            "keyword.control.if.shell",
-	            "keyword.control.fi.shell",
-	            "keyword.operator.increment.go",
-	            "keyword.operator.decrement.go",
-	            "meta.function.parameter.typehinted.php punctuation.separator.delimiter.php",
+                "keyword.operator.optional_type.prisma",
+                "keyword.operator.expression.void.ts",
+                "keyword.control.if.shell",
+                "keyword.control.fi.shell",
+                "keyword.operator.increment.go",
+                "keyword.operator.decrement.go",
+                "meta.function.parameter.typehinted.php punctuation.separator.delimiter.php",
                 "punctuation.accessor.optional.js",
                 "keyword.interface.go",
                 "keyword.operator.assignment.compound.shell",
@@ -926,7 +988,6 @@
                 "variable.language.groovy",
                 "variable.other.readwrite.terraform",
                 "variable.other.readwrite.hcl",
-
                 "variable.parameter.dart",
                 "variable.other.loop.shell",
                 "variable.other.normal.shell",
@@ -1051,7 +1112,7 @@
             "name": "Constants",
             "scope": [
                 "constant.language.null.go",
-	            "constant.language.boolean.go",
+                "constant.language.boolean.go",
                 "variable.other.constant.object.property.ts",
                 "variable.other.enummember.tsx",
                 "variable.other.constant.object.tsx",
@@ -1124,9 +1185,9 @@
             "name": "Storage types",
             "scope": [
                 "storage.type.model.prisma",
-	            "storage.type.const.php",
-	            "storage.type.config.prisma",
-	            "storage.type.enum.prisma",
+                "storage.type.const.php",
+                "storage.type.config.prisma",
+                "storage.type.enum.prisma",
                 "keyword.map.go",
                 "keyword.const.go",
                 "keyword.type.go",
@@ -1467,7 +1528,6 @@
                 "meta.function-call.hcl",
                 "meta.definition.method.signature.java entity.name.function.java",
                 "meta.method-call.groovy",
-
                 "meta.selectionset.graphql variable.graphql",
                 "entity.name.function.graphql",
                 "entity.name.function.dart",
@@ -1500,6 +1560,7 @@
         {
             "name": "function KWs",
             "scope": [
+                "fenced_code.block.language.markdown",
                 "keyword.function.go",
                 "storage.type.function.arrow.tsx",
                 "storage.type.function.tsx",
@@ -1522,7 +1583,7 @@
         {
             "name": "Parameters",
             "scope": [
-	            "meta.class.php meta.method-call.php entity.name.variable.parameter.php",
+                "meta.class.php meta.method-call.php entity.name.variable.parameter.php",
                 "meta.class.php meta.method-call.static.php entity.name.variable.parameter.php",
                 "meta.class.php meta.class.body.php meta.method-call.static.php entity.name.variable.parameter.php",
                 "variable.parameter.key.prisma",
