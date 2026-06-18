@@ -1,0 +1,293 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "theme_development_workflow",
+        "label": "Theme Development Workflow",
+        "nodes": [
+          "vsc_extension_inspect_tm_scopes",
+          "vsc_extension_workbench_colors",
+          "vsc_extension_generate_color_theme_command"
+        ],
+        "relation": "workflow",
+        "confidence": "INFERRED",
+        "confidence_score": 0.8,
+        "source_file": "vsc-extension-quickstart.md",
+        "source_location": "lines 12-17"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "Color Theme Extension",
+      "file_type": "document",
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "lines 1-26",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "vsc_extension_color_theme_extension",
+      "community": 1,
+      "norm_label": "color theme extension"
+    },
+    {
+      "label": "package.json",
+      "file_type": "document",
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "vsc_extension_package_json",
+      "community": 1,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "themes/Try theme-color-theme.json",
+      "file_type": "document",
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "vsc_extension_theme_file",
+      "community": 2,
+      "norm_label": "themes/try theme-color-theme.json"
+    },
+    {
+      "label": "Token Colorization",
+      "file_type": "document",
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 20",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "vsc_extension_color_tokenization",
+      "community": 0,
+      "norm_label": "token colorization"
+    },
+    {
+      "label": "TextMate Themes",
+      "file_type": "document",
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 20",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "vsc_extension_textmate_themes",
+      "community": 0,
+      "norm_label": "textmate themes"
+    },
+    {
+      "label": "Scopes",
+      "file_type": "document",
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "lines 12, 20",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "vsc_extension_scopes",
+      "community": 0,
+      "norm_label": "scopes"
+    },
+    {
+      "label": "Inspect TM Scopes Command",
+      "file_type": "document",
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "vsc_extension_inspect_tm_scopes",
+      "community": 0,
+      "norm_label": "inspect tm scopes command"
+    },
+    {
+      "label": "Workbench Colors",
+      "file_type": "document",
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "vsc_extension_workbench_colors",
+      "community": 1,
+      "norm_label": "workbench colors"
+    },
+    {
+      "label": "Generate Color Theme From Current Settings Command",
+      "file_type": "document",
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "vsc_extension_generate_color_theme_command",
+      "community": 2,
+      "norm_label": "generate color theme from current settings command"
+    },
+    {
+      "label": "Try's Syntax Theme",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_try_syntax_theme",
+      "community": 3,
+      "norm_label": "try's syntax theme"
+    },
+    {
+      "label": "try-theme Extension",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "line 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "changelog_try_theme_extension",
+      "community": 3,
+      "norm_label": "try-theme extension"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 5",
+      "weight": 1.0,
+      "_src": "vsc_extension_package_json",
+      "_tgt": "vsc_extension_color_theme_extension",
+      "source": "vsc_extension_color_theme_extension",
+      "target": "vsc_extension_package_json"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 7",
+      "weight": 1.0,
+      "_src": "vsc_extension_theme_file",
+      "_tgt": "vsc_extension_color_theme_extension",
+      "source": "vsc_extension_color_theme_extension",
+      "target": "vsc_extension_theme_file"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 17",
+      "weight": 1.0,
+      "_src": "vsc_extension_workbench_colors",
+      "_tgt": "vsc_extension_color_theme_extension",
+      "source": "vsc_extension_color_theme_extension",
+      "target": "vsc_extension_workbench_colors"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "vsc_extension_color_theme_extension",
+      "_tgt": "readme_try_syntax_theme",
+      "source": "vsc_extension_color_theme_extension",
+      "target": "readme_try_syntax_theme"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 17",
+      "weight": 1.0,
+      "_src": "vsc_extension_generate_color_theme_command",
+      "_tgt": "vsc_extension_theme_file",
+      "source": "vsc_extension_theme_file",
+      "target": "vsc_extension_generate_color_theme_command"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 20",
+      "weight": 1.0,
+      "_src": "vsc_extension_color_tokenization",
+      "_tgt": "vsc_extension_textmate_themes",
+      "source": "vsc_extension_color_tokenization",
+      "target": "vsc_extension_textmate_themes"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "lines 12, 20",
+      "weight": 1.0,
+      "_src": "vsc_extension_scopes",
+      "_tgt": "vsc_extension_color_tokenization",
+      "source": "vsc_extension_color_tokenization",
+      "target": "vsc_extension_scopes"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "line 12",
+      "weight": 1.0,
+      "_src": "vsc_extension_inspect_tm_scopes",
+      "_tgt": "vsc_extension_scopes",
+      "source": "vsc_extension_scopes",
+      "target": "vsc_extension_inspect_tm_scopes"
+    },
+    {
+      "relation": "cites",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": "line 1",
+      "weight": 1.0,
+      "_src": "readme_try_syntax_theme",
+      "_tgt": "changelog_try_theme_extension",
+      "source": "readme_try_syntax_theme",
+      "target": "changelog_try_theme_extension"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "theme_development_workflow",
+      "label": "Theme Development Workflow",
+      "nodes": [
+        "vsc_extension_inspect_tm_scopes",
+        "vsc_extension_workbench_colors",
+        "vsc_extension_generate_color_theme_command"
+      ],
+      "relation": "workflow",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "vsc-extension-quickstart.md",
+      "source_location": "lines 12-17"
+    }
+  ]
+}

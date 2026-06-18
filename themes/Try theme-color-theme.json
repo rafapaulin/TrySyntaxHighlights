@@ -1645,6 +1645,9 @@
         {
             "name": "Parameters",
             "scope": [
+                "meta.trait.body.php entity.name.variable.parameter.php",
+                "meta.method-call.static.php entity.name.variable.parameter.php",
+                "meta.method-call.php entity.name.variable.parameter.php",
                 "meta.class.php meta.method-call.php entity.name.variable.parameter.php",
                 "meta.class.php meta.method-call.static.php entity.name.variable.parameter.php",
                 "meta.class.php meta.class.body.php meta.method-call.static.php entity.name.variable.parameter.php",
