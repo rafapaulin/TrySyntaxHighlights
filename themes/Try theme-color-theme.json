@@ -1333,6 +1333,7 @@
         {
             "name": "Support Functions",
             "scope": [
+                "support.function.openssl.php",
                 "support.function.functional.prisma",
                 "storage.type.boolean.go",
                 "entity.name.function.support.builtin.go",
